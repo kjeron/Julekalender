@@ -1,0 +1,2972 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1b1f4b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Julekalender">
+<meta name="robots" content="noindex, nofollow">
+<title>Julekalenderen</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="ikoner/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="ikoner/ikon-192.png">
+<style>
+@font-face{font-family:'Alfa Slab One';font-style:normal;font-weight:400;font-display:swap;src:url(data:font/woff2;base64,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) format('woff2');}
+/* ==========================================================================
+   Julekalenderen – juletivoli om natten
+   Farger: natteblå bunn, lyspæregull, strikkerødt, granbar, ullhvit billettpapir.
+   ========================================================================== */
+
+:root {
+  --natt: #1b1f4b;
+  --natt-2: #262c66;
+  --natt-3: #12153a;
+  --natt-lys: #343b8a;
+  --paere: #ffc93c;
+  --paere-mork: #b88a12;
+  --rod: #c8202a;
+  --rod-mork: #8f141c;
+  --gran: #1e6b45;
+  --gran-mork: #124530;
+  --ull: #f6eedf;
+  --sno: #f5f7ff;
+  --sno-dim: #b9bfe6;
+  --display: 'Alfa Slab One', 'Rockwell', 'Roboto Slab', 'Georgia', serif;
+  --tekst: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --topp: env(safe-area-inset-top, 0px);
+  --bunn: env(safe-area-inset-bottom, 0px);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+body {
+  background: var(--natt);
+  color: var(--sno);
+  font: 16px/1.45 var(--tekst);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+}
+/* stille snø i bakgrunnen (ingen bevegelse) */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(1.6px 1.6px at 14% 12%, rgba(255,255,255,.55), transparent 60%),
+    radial-gradient(1.2px 1.2px at 72% 8%, rgba(255,255,255,.45), transparent 60%),
+    radial-gradient(1.8px 1.8px at 38% 31%, rgba(255,255,255,.35), transparent 60%),
+    radial-gradient(1.2px 1.2px at 88% 37%, rgba(255,255,255,.5), transparent 60%),
+    radial-gradient(1.5px 1.5px at 6% 58%, rgba(255,255,255,.35), transparent 60%),
+    radial-gradient(1.2px 1.2px at 54% 66%, rgba(255,255,255,.4), transparent 60%),
+    radial-gradient(1.7px 1.7px at 92% 82%, rgba(255,255,255,.35), transparent 60%),
+    radial-gradient(1.2px 1.2px at 26% 88%, rgba(255,255,255,.45), transparent 60%);
+  background-size: 260px 300px;
+  opacity: .7;
+}
+
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--paere); outline-offset: 3px; border-radius: 10px; }
+
+.app {
+  position: relative;
+  max-width: 520px;
+  margin: 0 auto;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: calc(10px + var(--topp)) 14px calc(24px + var(--bunn));
+}
+
+.skjult { display: none !important; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------- Knapper ------------------------------------------------------ */
+.knapp {
+  appearance: none;
+  border: 0;
+  border-radius: 999px;
+  min-height: 52px;
+  padding: 14px 26px;
+  font: 700 17px/1.1 var(--tekst);
+  background: var(--paere);
+  color: var(--natt-3);
+  box-shadow: 0 4px 0 var(--paere-mork);
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform .08s, box-shadow .08s, opacity .2s;
+}
+.knapp:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--paere-mork); }
+.knapp:disabled { opacity: .4; cursor: default; transform: none; box-shadow: 0 4px 0 var(--paere-mork); }
+.knapp--sekundar { background: transparent; color: var(--sno); box-shadow: inset 0 0 0 2px rgba(245,247,255,.55); }
+.knapp--sekundar:active { box-shadow: inset 0 0 0 2px rgba(245,247,255,.55); }
+.knapp--liten { min-height: 40px; padding: 9px 16px; font-size: 15px; }
+
+.ikonknapp {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  color: var(--sno);
+}
+.ikonknapp svg { width: 24px; height: 24px; }
+
+/* ---------- Bannere (test og demo) --------------------------------------- */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 2px 0 6px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: repeating-linear-gradient(-45deg, #ffc93c 0 14px, #f3b928 14px 28px);
+  color: var(--natt-3);
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 1.3;
+}
+.banner .knapp { background: var(--natt-3); color: var(--sno); box-shadow: none; flex: none; }
+.banner__knapper { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 6px; flex: none; max-width: 52%; }
+
+/* ---------- Skiltet med de to som titter fram ---------------------------- */
+.skilt { position: relative; margin: 112px auto 0; max-width: 380px; }
+.skilt__hoder {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: -136px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 26px;
+  pointer-events: none;
+}
+.skilt__hoder .figur { height: 150px; width: auto; }
+.skilt__hoder .figur:first-child { transform: rotate(-6deg); }
+.skilt__hoder .figur:last-child { transform: rotate(6deg); }
+.titt-inn .skilt__hoder .figur { animation: tittOpp .9s cubic-bezier(.2,1.4,.4,1) both; }
+.titt-inn .skilt__hoder .figur:last-child { animation-delay: .18s; }
+@keyframes tittOpp { from { translate: 0 70px; } to { translate: 0 0; } }
+
+.skilt__tavle {
+  position: relative;
+  z-index: 2;
+  padding: 16px 16px 15px;
+  border-radius: 18px;
+  background: var(--rod);
+  box-shadow: inset 0 0 0 3px rgba(255, 201, 60, .6), inset 0 0 0 7px var(--rod), inset 0 0 0 8px rgba(255, 201, 60, .25), 0 6px 0 var(--natt-3);
+  text-align: center;
+}
+.skilt__tavle h1 {
+  margin: 0;
+  font: 400 clamp(30px, 9.2vw, 44px)/1 var(--display);
+  letter-spacing: .01em;
+  color: var(--sno);
+  text-shadow: 0 3px 0 var(--rod-mork);
+}
+
+.hilsen { margin: 16px 2px 0; font-size: 17px; }
+.hilsen strong { font-weight: 700; }
+.hilsen .sum { font: 400 19px/1 var(--display); color: var(--paere); white-space: nowrap; }
+.melding { margin: 4px 2px 0; color: var(--sno-dim); font-size: 15px; }
+
+/* ---------- Lukene ------------------------------------------------------- */
+.luker {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  margin-top: 16px;
+}
+.luke {
+  --dor: var(--rod);
+  position: relative;
+  aspect-ratio: 4 / 5;
+  border: 0;
+  border-radius: 10px;
+  padding: 0;
+  background: var(--dor);
+  color: var(--sno);
+  font: 400 clamp(19px, 6vw, 27px)/1 var(--display);
+  cursor: pointer;
+  touch-action: manipulation;
+  box-shadow: inset 0 0 0 2px rgba(255, 201, 60, .34), inset 0 -6px 0 rgba(0, 0, 0, .2), 0 4px 0 var(--natt-3);
+  transition: transform .12s;
+}
+.luke::after { /* dørhåndtak */
+  content: '';
+  position: absolute;
+  right: 9%;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 201, 60, .7);
+}
+.luke:active { transform: translateY(2px); }
+.luke--24 { grid-column: span 2; aspect-ratio: auto; font-size: clamp(26px, 8vw, 36px); }
+.luke[data-farge='gran'] { --dor: var(--gran); }
+.luke[data-farge='natt'] { --dor: var(--natt-lys); }
+.luke--last { filter: saturate(.5) brightness(.72); }
+.luke--last::after { opacity: .4; }
+
+.luke--idag { z-index: 2; transform: translateY(-2px); box-shadow: inset 0 0 0 2px rgba(255, 201, 60, .7), inset 0 -6px 0 rgba(0, 0, 0, .2), 0 0 22px rgba(255, 201, 60, .45), 0 6px 0 var(--natt-3); }
+.luke .lys { position: absolute; inset: -5px; width: calc(100% + 10px); height: calc(100% + 10px); pointer-events: none; overflow: visible; }
+.lys .av { stroke: #8a6a1c; }
+.lys .pa { stroke: var(--paere); filter: drop-shadow(0 0 3px rgba(255, 201, 60, .95)); animation: jage .9s steps(3) infinite; }
+@keyframes jage { to { stroke-dashoffset: var(--periode); } }
+
+.merke {
+  position: absolute;
+  left: 50%;
+  bottom: 6%;
+  translate: -50% 0;
+  padding: 2px 6px 3px;
+  border-radius: 6px;
+  background: var(--paere);
+  color: var(--natt-3);
+  font: 700 10px/1 var(--tekst);
+  white-space: nowrap;
+}
+
+.luke--apnet { background: var(--natt-3); box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .08), 0 4px 0 #0b0d26; }
+.luke--apnet::after { display: none; }
+.luke__nr { position: absolute; left: 7px; top: 6px; font: 400 12px/1 var(--display); color: var(--sno-dim); }
+.stubb {
+  position: absolute;
+  inset: 26% 10% 12%;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  border-radius: 6px;
+  background: var(--ull);
+  color: var(--natt-3);
+  -webkit-mask: radial-gradient(circle 5px at 0 50%, transparent 97%, #000) left / 51% 100% no-repeat, radial-gradient(circle 5px at 100% 50%, transparent 97%, #000) right / 51% 100% no-repeat;
+  mask: radial-gradient(circle 5px at 0 50%, transparent 97%, #000) left / 51% 100% no-repeat, radial-gradient(circle 5px at 100% 50%, transparent 97%, #000) right / 51% 100% no-repeat;
+}
+.stubb b { font: 400 clamp(15px, 4.6vw, 22px)/1 var(--display); }
+.stubb small { font: 700 10px/1.2 var(--tekst); opacity: .7; }
+.luke--24 .stubb { inset: 24% 18% 12%; }
+
+.fot { margin: 22px 2px 0; color: var(--sno-dim); font-size: 13px; text-align: center; }
+
+/* ---------- «Ikke ennå» og andre små beskjeder --------------------------- */
+.beskjed {
+  position: fixed;
+  inset: auto 0 0;
+  z-index: 40;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+.beskjed__innhold { position: relative; width: min(420px, 100%); height: 300px; pointer-events: auto; }
+.beskjed .figur { position: absolute; left: 50%; bottom: -12px; height: 270px; width: auto; translate: -64% 0; animation: reisSeg .55s cubic-bezier(.2,1.3,.4,1) both; }
+.beskjed .snakkeboble { position: absolute; right: 12px; top: 6px; max-width: 200px; animation: boble .4s .25s cubic-bezier(.2,1.4,.4,1) both; }
+.beskjed.borte .figur { animation: synk .35s ease-in both; }
+.beskjed.borte .snakkeboble { animation: boble .2s reverse both; }
+@keyframes reisSeg { from { transform: translateY(110%); } to { transform: translateY(0); } }
+@keyframes synk { to { transform: translateY(115%); } }
+@keyframes boble { from { transform: scale(.4); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+
+.snakkeboble {
+  position: relative;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: #fff;
+  color: var(--natt-3);
+  font: 700 16px/1.3 var(--tekst);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, .25);
+  transform-origin: 20% 100%;
+}
+.snakkeboble::after {
+  content: '';
+  position: absolute;
+  left: 22px;
+  bottom: -10px;
+  border: 10px solid transparent;
+  border-top-color: #fff;
+  border-bottom: 0;
+}
+.snakkeboble--hoyre::after { left: auto; right: 22px; }
+
+/* ---------- Spillskjermen ------------------------------------------------ */
+.spillskjerm { display: flex; flex-direction: column; min-height: calc(100dvh - 34px - var(--topp) - var(--bunn)); }
+.topplinje { display: flex; align-items: center; justify-content: space-between; margin: 0 -6px; }
+.tilbake {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 8px;
+  border-radius: 12px;
+  font-weight: 650;
+  cursor: pointer;
+}
+.tilbake svg { width: 22px; height: 22px; }
+.lukeetikett { font: 400 15px/1 var(--display); color: var(--paere); }
+.spill-tittel { margin: 2px 0 0; font: 400 clamp(26px, 8vw, 34px)/1.05 var(--display); }
+.spill-tekst { margin: 6px 0 0; color: var(--sno-dim); min-height: 1.45em; }
+.scene { position: relative; flex: 1; display: grid; place-items: center; margin-top: 10px; min-height: 300px; }
+.handling { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; padding: 14px 0 6px; min-height: 72px; }
+
+.figur { overflow: visible; display: block; }
+.figur .arm { transform-box: view-box; transition: transform .35s cubic-bezier(.3,1.5,.5,1); }
+.figur .arm-v { transform-origin: 62px 172px; }
+.figur .arm-h { transform-origin: 138px 172px; }
+.figur .kvist.arm-v { transform-origin: 58px 200px; }
+.figur .kvist.arm-h { transform-origin: 142px 200px; }
+.figur .hode { transform-box: view-box; transform-origin: 100px 160px; }
+.figur.jubel .arm-v { transform: rotate(150deg); }
+.figur.jubel .arm-h { transform: rotate(-150deg); }
+.figur.jubel .kvist.arm-v { transform: rotate(60deg); }
+.figur.jubel .kvist.arm-h { transform: rotate(-60deg); }
+.figur.jubel { animation: hopp .5s .1s ease-in-out 3; }
+.figur.vink .arm-h { animation: vink .8s ease-in-out infinite; }
+.figur.dupp { animation: dupp 1.2s ease-in-out infinite; }
+.figur .glorie { animation: sveve 2.4s ease-in-out infinite; }
+@keyframes hopp { 0%, 100% { translate: 0 0; } 50% { translate: 0 -12%; } }
+@keyframes vink { 0%, 100% { transform: rotate(-125deg); } 50% { transform: rotate(-165deg); } }
+@keyframes dupp { 0%, 100% { translate: 0 0; } 50% { translate: 0 -3%; } }
+@keyframes sveve { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+
+/* ---------- Gevinstbilletten -------------------------------------------- */
+.avsloring {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  padding: 20px 16px calc(20px + var(--bunn));
+  background: rgba(10, 12, 36, .84);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  animation: fadeInn .25s both;
+}
+@keyframes fadeInn { from { opacity: 0; } }
+.automat { position: relative; width: min(330px, 86vw); }
+.automat__spalte {
+  position: relative;
+  z-index: 3;
+  height: 20px;
+  margin: 0 -8px;
+  border-radius: 10px;
+  background: #090b22;
+  box-shadow: inset 0 4px 8px #000, 0 0 0 4px var(--natt-lys), 0 0 0 7px var(--paere);
+}
+.automat__vindu { position: relative; z-index: 2; margin-top: -10px; overflow: hidden; padding: 0 2px 14px; }
+.billett {
+  position: relative;
+  padding: 30px 18px 22px;
+  border-radius: 0 0 14px 14px;
+  background: var(--ull);
+  color: var(--natt-3);
+  text-align: center;
+  transform: translateY(-100%);
+  -webkit-mask: radial-gradient(circle 11px at 0 62%, transparent 97%, #000) left / 51% 100% no-repeat, radial-gradient(circle 11px at 100% 62%, transparent 97%, #000) right / 51% 100% no-repeat;
+  mask: radial-gradient(circle 11px at 0 62%, transparent 97%, #000) left / 51% 100% no-repeat, radial-gradient(circle 11px at 100% 62%, transparent 97%, #000) right / 51% 100% no-repeat;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, .25);
+}
+.billett::before { /* perforering */
+  content: '';
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  top: 62%;
+  border-top: 2px dashed rgba(18, 21, 58, .25);
+}
+.billett.skriver { animation: skriv .5s ease-in-out infinite; }
+@keyframes skriv { 50% { translate: 1px 0; } }
+.billett__luke { margin: 0; font: 700 13px/1 var(--tekst); opacity: .65; }
+.billett__tittel { margin: 6px 0 0; font: 400 30px/1 var(--display); color: var(--rod); }
+.billett__belop { margin: 12px 0 0; font: 400 64px/1 var(--display); letter-spacing: -.01em; }
+.billett__belop small { font-size: 28px; }
+.billett__belop.stempel { animation: stempel .45s cubic-bezier(.2,1.6,.4,1) both; }
+@keyframes stempel { from { transform: scale(1.8) rotate(-8deg); opacity: 0; } to { transform: none; opacity: 1; } }
+.billett__info { margin: 26px 0 0; font-size: 14px; line-height: 1.35; }
+.billett__venter { margin: 18px 0 0; font-weight: 650; }
+.billett__feil { margin: 16px 0 0; font-weight: 650; color: var(--rod-mork); }
+.avsloring .handling { padding-top: 22px; }
+.med-cameo { padding-top: 200px; }
+.cameo-ramme { position: absolute; z-index: 1; left: -20%; right: -20%; bottom: calc(100% - 12px); height: 250px; overflow: hidden; pointer-events: none; display: flex; justify-content: center; align-items: flex-end; }
+.cameo-ramme .cameo { height: 230px; width: auto; animation: cameo .7s cubic-bezier(.2,1.3,.4,1) both; }
+.cameo-ramme .figur-drakt.cameo { height: 250px; margin-bottom: -40px; }
+.cameo-boble { position: absolute; z-index: 4; right: -6px; bottom: calc(100% + 150px); animation: boble .35s .45s cubic-bezier(.2,1.4,.4,1) both; }
+@keyframes cameo { from { transform: translateY(105%); } to { transform: none; } }
+
+.konfetti { position: fixed; inset: 0; z-index: 70; pointer-events: none; }
+
+/* ---------- Laster og feil ---------------------------------------------- */
+.senter { min-height: 80vh; display: grid; place-items: center; align-content: center; gap: 14px; text-align: center; padding: 20px; }
+.senter h1 { margin: 0; font: 400 28px/1.1 var(--display); }
+.senter p { margin: 0; color: var(--sno-dim); max-width: 34ch; }
+.senter .figur { height: 210px; width: auto; }
+.lasteprikker { display: flex; gap: 8px; }
+.lasteprikker i { width: 12px; height: 12px; border-radius: 50%; background: var(--paere); animation: blink 1s infinite; }
+.lasteprikker i:nth-child(2) { animation-delay: .2s; }
+.lasteprikker i:nth-child(3) { animation-delay: .4s; }
+@keyframes blink { 0%, 100% { opacity: .25; } 50% { opacity: 1; } }
+
+@media (max-height: 700px) {
+  .med-cameo { padding-top: 150px; }
+  .cameo-ramme { height: 190px; }
+  .cameo-ramme .cameo { height: 180px; }
+  .cameo-ramme .figur-drakt.cameo { height: 200px; }
+  .cameo-boble { bottom: calc(100% + 110px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+  .lys .pa { animation: none; }
+}
+
+/* ==========================================================================
+   Spillene
+   ========================================================================== */
+
+@keyframes pop { from { transform: scale(.3); } to { transform: none; } }
+@keyframes hoppe { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+@keyframes blinke { 50% { opacity: .25; } }
+@keyframes rist { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-6deg); } 75% { transform: rotate(6deg); } }
+
+/* ---------- Lykkehjul ---------------------------------------------------- */
+.hjul { position: relative; width: min(340px, 94vw); padding-bottom: 86px; }
+.hjul__ramme { position: relative; width: min(300px, 80vw, calc(100vh - 380px)); width: min(300px, 80vw, calc(100dvh - 380px)); margin: 0 auto; aspect-ratio: 1; }
+.hjul__skive { display: block; width: 100%; height: 100%; touch-action: none; filter: drop-shadow(0 8px 0 rgba(0, 0, 0, .3)); }
+.hjul__tekst { font: 400 13px var(--display); fill: var(--sno); text-anchor: middle; paint-order: stroke; stroke: rgba(0, 0, 0, .25); stroke-width: 2px; }
+.hjul__tekst--gevinst { fill: var(--natt-3); stroke: none; font-size: 15px; }
+.hjul__treff { fill: rgba(255, 255, 255, .35); stroke: #fff; stroke-width: 4; animation: blinke .45s ease-in-out infinite; }
+.hjul .paere { fill: #b88a12; stroke: #231a1a; stroke-width: 1.5; }
+.hjul__skive.vunnet .paere { fill: var(--paere); animation: blinke .3s steps(2) infinite; }
+.hjul__skive.vunnet .paere:nth-of-type(odd) { animation-delay: .15s; }
+.hjul__nav { position: absolute; left: 38%; top: 38%; width: 24%; pointer-events: none; }
+.hjul__peker { position: absolute; left: 43%; top: -6%; width: 14%; transform-origin: 50% 12%; filter: drop-shadow(0 3px 0 rgba(0, 0, 0, .35)); pointer-events: none; }
+.vert { position: absolute; bottom: 0; width: 112px; height: auto; z-index: 3; }
+.vert--v { left: -8px; }
+.vert--h { right: -8px; }
+
+/* ---------- Skrapelodd -------------------------------------------------- */
+.lodd { position: relative; width: min(320px, 90vw, calc(100vh - 400px)); width: min(320px, 90vw, calc(100dvh - 400px)); padding-top: 88px; }
+.lodd__titter { position: absolute; top: 0; left: calc(50% - 85px); width: 170px; height: 88px; }
+.lodd__titter .figur { position: absolute; z-index: 1; left: 50%; top: -42px; height: 152px; width: auto; translate: -50% 0; transition: transform .45s cubic-bezier(.2,1.5,.4,1); }
+.lodd__titter.jubel .figur { transform: translateY(-26px); }
+.vott { position: absolute; z-index: 3; bottom: -6px; width: 36px; height: 28px; border-radius: 16px 16px 10px 10px; background: var(--rod); border: 2.6px solid #231a1a; box-shadow: inset 0 -5px 0 var(--rod-mork); }
+.vott::before { content: ''; position: absolute; top: -9px; width: 13px; height: 16px; border-radius: 8px; background: var(--rod); border: 2.6px solid #231a1a; border-bottom: 0; }
+.vott--v { left: 4px; }
+.vott--v::before { left: 2px; }
+.vott--h { right: 4px; }
+.vott--h::before { right: 2px; }
+.lodd__titter.jubel .vott { animation: hoppe .45s ease-in-out 3; }
+.lodd__boble { position: absolute; z-index: 4; left: 76%; top: -46px; white-space: nowrap; animation: boble .35s cubic-bezier(.2,1.4,.4,1) both; }
+.lodd__kort { position: relative; z-index: 2; padding: 12px; border-radius: 18px; background: var(--ull); color: var(--natt-3); border: 3px solid #231a1a; box-shadow: 0 8px 0 rgba(0, 0, 0, .28); }
+.lodd__topp { display: flex; justify-content: space-between; align-items: baseline; padding: 20px 4px 10px; }
+.lodd__navn { font: 400 24px/1 var(--display); color: var(--rod); }
+.lodd__regel { font-size: 13px; font-weight: 700; }
+.lodd__omraade { position: relative; aspect-ratio: 1; border-radius: 10px; overflow: hidden; border: 2px solid rgba(18, 21, 58, .25); }
+.lodd__felt { position: absolute; inset: 0; display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); background: #fff; }
+.felt { display: grid; place-items: center; border: 1px dashed rgba(18, 21, 58, .14); overflow: hidden; }
+.felt .symbol { font-size: clamp(30px, 10vw, 44px); line-height: 1; }
+.felt .figur.symbol--ansikt { width: 82%; height: auto; }
+.felt.avdekket > * { animation: pop .3s cubic-bezier(.2,1.6,.4,1); }
+.felt.vinner { background: #fff1c2; box-shadow: inset 0 0 0 3px var(--paere); }
+.felt.vinner > * { animation: hoppe .6s ease-in-out infinite; }
+.felt.dempet > * { opacity: .3; }
+.lodd__belegg { position: absolute; inset: 0; width: 100%; height: 100%; touch-action: none; cursor: crosshair; }
+.lodd__bunn { margin-top: 8px; text-align: center; font-size: 11px; opacity: .55; }
+
+/* ---------- Enarmet banditt -------------------------------------------- */
+.banditt { position: relative; display: flex; align-items: flex-end; padding-left: 64px; }
+.banditt__figur { position: absolute; left: -10px; bottom: -4px; width: 104px; height: auto; z-index: 0; }
+.banditt__skap { position: relative; z-index: 1; width: min(250px, 60vw); padding: 12px 12px 14px; border-radius: 28px 28px 14px 14px; background: var(--rod); border: 3px solid #231a1a; box-shadow: inset 0 0 0 4px var(--paere), 0 8px 0 rgba(0, 0, 0, .3); }
+.banditt__skilt { margin-bottom: 12px; padding: 10px 6px; border-radius: 16px; background: var(--natt-3); border: 3px solid #231a1a; text-align: center; }
+.banditt__skilt span { font: 400 clamp(16px, 5.4vw, 21px)/1 var(--display); color: var(--paere); }
+.blinker .banditt__skilt span { animation: blinke .25s steps(2) infinite; }
+.banditt__vindu { --h: clamp(58px, 16.5vw, 68px); position: relative; display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; height: calc(var(--h) * 3 + 6px); padding: 3px; border-radius: 12px; background: #231a1a; overflow: hidden; }
+.valse { position: relative; overflow: hidden; border-radius: 7px; background: var(--ull); }
+.valse::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(rgba(0, 0, 0, .38), transparent 28%, transparent 72%, rgba(0, 0, 0, .38)); }
+.stripe { will-change: transform; }
+.stripe.uskarp { filter: blur(2.5px); }
+.celle { height: var(--h); display: grid; place-items: center; }
+.celle .symbol { font-size: calc(var(--h) * .58); line-height: 1; }
+.celle .figur.symbol--ansikt { width: 88%; height: auto; max-height: 94%; }
+.banditt__linje { position: absolute; left: 0; right: 0; top: 50%; height: 3px; margin-top: -1.5px; background: var(--paere); box-shadow: 0 0 6px var(--paere); opacity: .75; pointer-events: none; }
+.banditt__vindu.gevinst .banditt__linje { height: 5px; margin-top: -2.5px; opacity: 1; animation: blinke .2s steps(2) infinite; }
+.banditt__panel { display: flex; justify-content: center; gap: 14px; margin: 12px 0 10px; }
+.lampe { width: 16px; height: 16px; border-radius: 50%; background: #6b4e12; border: 2px solid #231a1a; }
+.blinker .lampe { background: var(--paere); animation: blinke .3s steps(2) infinite; }
+.blinker .lampe:nth-child(2) { animation-delay: .15s; }
+.banditt__brett { position: relative; height: 34px; border-radius: 10px; background: var(--natt-3); border: 3px solid #231a1a; }
+.mynt { position: absolute; top: -24px; width: 18px; height: 18px; margin-left: -9px; border-radius: 50%; border: 2px solid #231a1a; background: radial-gradient(circle at 35% 35%, #fff2b0, var(--paere) 55%, var(--paere-mork)); animation: myntfall .55s cubic-bezier(.5, 0, .8, .4) both; }
+@keyframes myntfall { from { transform: translateY(-30px); opacity: 0; } 20% { opacity: 1; } to { transform: translateY(30px); } }
+.banditt__spak { position: relative; width: 36px; height: 220px; margin-left: 2px; align-self: center; }
+.spak__fot { position: absolute; left: 0; bottom: 40px; width: 24px; height: 50px; border-radius: 8px; background: #8d929e; border: 3px solid #231a1a; }
+.spak__stang { position: absolute; left: 7px; bottom: 70px; width: 11px; height: 130px; border-radius: 6px; background: linear-gradient(90deg, #e2e5ec, #9aa0ad); border: 2.5px solid #231a1a; }
+.spak__kule { position: absolute; left: 50%; top: -24px; width: 36px; height: 36px; margin-left: -18px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #ff8080, var(--rod) 60%, var(--rod-mork)); border: 3px solid #231a1a; cursor: grab; touch-action: none; transform: translateY(var(--dra, 0px)); transition: transform .25s; }
+.banditt__spak.dratt .spak__kule { transform: translateY(80px); transition-duration: .12s; }
+
+/* ---------- Velg en pakke ---------------------------------------------- */
+.pakker { position: relative; width: min(340px, 94vw); height: 250px; }
+.pakke { position: absolute; left: 50%; bottom: 24px; width: 30%; margin-left: -15%; padding: 0; border: 0; background: none; cursor: pointer; transition: opacity .4s, filter .4s; }
+.pakke svg { display: block; width: 100%; overflow: visible; transition: transform .4s cubic-bezier(.3,1.4,.5,1); transform-origin: 50% 100%; }
+.pakke:disabled { cursor: default; }
+.pakke:not(:disabled) svg { animation: hoppe 1.2s ease-in-out infinite; }
+.pakke:not(:disabled):nth-child(2) svg { animation-delay: .2s; }
+.pakke:not(:disabled):nth-child(3) svg { animation-delay: .4s; }
+.pakke.bort { opacity: .18; filter: grayscale(.7); }
+.pakke.valgt { z-index: 2; }
+.pakke.valgt svg { transform: scale(1.3); }
+.pakke.rister svg { animation: rist .12s linear infinite; }
+.pakke .pakke__lokk { transform-box: fill-box; transform-origin: 50% 100%; transition: transform .55s cubic-bezier(.2,1.4,.4,1); }
+.pakke.apnet .pakke__lokk { transform: translate(-34px, -86px) rotate(-38deg); }
+.klovn { position: absolute; left: 50%; bottom: 66%; width: 92%; margin-left: -46%; pointer-events: none; }
+.klovn__hode { position: relative; transform-origin: 50% 100%; animation: klovnhode .7s cubic-bezier(.2,1.8,.4,1) both, vippe 1.4s .7s ease-in-out infinite; }
+.klovn__hode .figur { width: 100%; height: auto; }
+.klovn__fjaer { width: 26%; height: 64px; margin: -6px auto 0; transform-origin: 50% 100%; animation: fjaer .7s cubic-bezier(.2,1.8,.4,1) both; }
+.klovn__fjaer svg { display: block; width: 100%; height: 100%; }
+.klovn__boble { position: absolute; left: 72%; top: -10px; white-space: nowrap; animation: boble .35s cubic-bezier(.2,1.4,.4,1) both; }
+@keyframes fjaer { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+@keyframes klovnhode { from { transform: translateY(80px) scale(.3); } to { transform: none; } }
+@keyframes vippe { 0%, 100% { rotate: -6deg; } 50% { rotate: 6deg; } }
+
+/* ---------- Plinko ----------------------------------------------------- */
+.plinko { position: relative; width: min(316px, 86vw, calc((100vh - 350px) * .708)); width: min(316px, 86vw, calc((100dvh - 350px) * .708)); }
+.plinko__brett { display: block; width: 100%; touch-action: none; filter: drop-shadow(0 8px 0 rgba(0, 0, 0, .3)); }
+.plinko .pinne { fill: #c9cff5; }
+.plinko .pinne.truffet { animation: pinne .45s ease-out; }
+@keyframes pinne { 0% { fill: #ffffff; } 100% { fill: #c9cff5; } }
+.plinko .spor { fill: #181d4d; }
+.plinko .spor--gevinst { fill: #3e3212; }
+.plinko .spor.lyser { fill: var(--paere); animation: blinke .3s steps(2) 6; }
+.spor__nitte { fill: #6f76b8; font: 700 22px var(--tekst); text-anchor: middle; }
+.plinko { margin-top: 86px; }
+.plinko__brett { position: relative; z-index: 2; }
+.plinko__titter { position: absolute; z-index: 1; right: 4px; top: -98px; width: 84px; transform-origin: 50% 100%; }
+.plinko__titter .figur { width: 100%; height: auto; }
+.plinko__titter .figur { transition: transform .45s cubic-bezier(.2,1.5,.4,1); }
+.plinko__titter.jubel .figur { transform: translateY(-22px); }
+.plinko__boble { position: absolute; z-index: 3; right: 86%; bottom: 72%; white-space: nowrap; animation: boble .35s cubic-bezier(.2,1.4,.4,1) both; }
+
+/* ---------- Reinsdyrløp ------------------------------------------------ */
+.scene--reinsdyr { place-items: stretch; align-content: center; }
+.lop { position: relative; width: 100%; }
+.lop__bane { position: relative; display: grid; gap: 8px; }
+.lop__mal { position: absolute; z-index: 2; top: -4px; bottom: -4px; right: 14px; width: 12px; border-radius: 3px; background: repeating-conic-gradient(#fff 0 25%, #231a1a 0 50%) 0 0 / 12px 12px; pointer-events: none; }
+.lop .spor { position: relative; display: block; width: 100%; height: 96px; padding: 0; border: 0; border-radius: 14px; background: linear-gradient(#eef2fd, #cdd6f3); box-shadow: inset 0 -4px 0 rgba(0, 0, 0, .12); color: var(--natt-3); text-align: left; cursor: pointer; }
+.lop .spor.valgt { box-shadow: inset 0 0 0 3px var(--paere), 0 0 0 3px var(--paere); }
+.lop .spor.vinner { box-shadow: inset 0 0 0 3px var(--paere), 0 0 20px var(--paere); }
+.spor__navn { position: absolute; z-index: 0; left: 116px; top: 50%; translate: 0 -50%; font: 700 15px/1 var(--tekst); }
+.spor__navn b { font: 400 16px/1 var(--display); color: var(--rod); }
+.ekvipasje { position: absolute; z-index: 1; left: 2px; bottom: 3px; width: 104px; height: 92px; will-change: transform; }
+.ekvipasje .rytter { position: absolute; left: 20px; bottom: 33px; width: 54px; height: auto; }
+.rein-holder { position: absolute; left: 0; right: 0; bottom: 0; }
+.rein { display: block; width: 104px; height: auto; overflow: visible; }
+.lop.i-gang .ben { animation: galopp .3s ease-in-out infinite alternate; }
+.lop.i-gang .ben-f2, .lop.i-gang .ben-b1 { animation-delay: -.15s; }
+@keyframes galopp { from { transform: rotate(24deg); } to { transform: rotate(-24deg); } }
+.lop.i-gang .rytter { animation: ri .3s ease-in-out infinite alternate; }
+@keyframes ri { to { translate: 0 -3px; } }
+.lop__nedtelling { position: absolute; inset: 0; z-index: 4; display: grid; place-items: center; font: 400 68px/1 var(--display); color: var(--paere); text-shadow: 0 4px 0 var(--natt-3); pointer-events: none; }
+.lop__nedtelling.vis { animation: tellepop .6s ease-out both; }
+@keyframes tellepop { from { transform: scale(2); opacity: 0; } 30% { transform: scale(1); opacity: 1; } to { opacity: 0; } }
+.lop__blits { position: absolute; inset: -8px; z-index: 5; border-radius: 18px; background: #fff; opacity: 0; pointer-events: none; }
+.lop__blits.blink { animation: blits .55s ease-out; }
+@keyframes blits { from { opacity: .9; } to { opacity: 0; } }
+.malfoto { position: absolute; z-index: 3; right: 34px; top: 8px; padding: 4px 8px; border-radius: 6px; background: var(--rod); color: #fff; font: 700 12px/1 var(--tekst); rotate: -6deg; animation: stempel .4s both; }
+
+/* ---------- Memory ----------------------------------------------------- */
+.memory { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; width: min(330px, 90vw, calc((100vh - 250px) * .68)); width: min(330px, 90vw, calc((100dvh - 250px) * .68)); }
+.kort { aspect-ratio: 1 / 1.1; padding: 0; border: 0; background: none; perspective: 700px; cursor: pointer; }
+.kort__inner { position: relative; display: block; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform .45s cubic-bezier(.3,1.3,.5,1); }
+.kort.snudd .kort__inner, .kort.funnet .kort__inner { transform: rotateY(180deg); }
+.kort__bak, .kort__forside { position: absolute; inset: 0; border-radius: 12px; border: 3px solid #231a1a; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+.kort__bak { background: radial-gradient(circle, var(--paere) 0 8px, #231a1a 8.5px 10.5px, transparent 11px), repeating-linear-gradient(45deg, var(--rod) 0 9px, #ad1822 9px 18px); box-shadow: inset 0 0 0 3px rgba(255, 201, 60, .55); }
+.kort__forside { display: grid; place-items: center; background: var(--ull); transform: rotateY(180deg); overflow: hidden; }
+.kort__forside .figur { width: 88%; height: auto; }
+.kort__forside .symbol { font-size: clamp(34px, 11vw, 46px); line-height: 1; }
+.kort.funnet .kort__forside { background: #fff1c2; box-shadow: inset 0 0 0 3px var(--paere); }
+.kort.bolge { animation: hoppe .45s ease-in-out 2; }
+
+/* ---------- Pakkeåpning ------------------------------------------------ */
+.storgave { position: relative; width: min(270px, 74vw); aspect-ratio: 1; margin-top: 60px; touch-action: none; -webkit-user-select: none; user-select: none; }
+.indre { position: absolute; z-index: 2; inset: 6% 5% 0; }
+.indre__kropp { position: absolute; inset: 24% 0 0; border-radius: 10px; background: linear-gradient(#ffd25a, #e9a91c); border: 3px solid #231a1a; box-shadow: inset 0 -10px 0 rgba(0, 0, 0, .12); }
+.indre__lokk { position: absolute; left: -5%; right: -5%; top: 12%; height: 17%; border-radius: 8px; background: #f7c84a; border: 3px solid #231a1a; transform-origin: 8% 100%; transition: transform .6s cubic-bezier(.2,1.4,.4,1); }
+.storgave.apnet .indre__lokk { transform: translate(-30%, -330%) rotate(-28deg); opacity: 0; transition: transform .7s cubic-bezier(.2,.8,.4,1), opacity .5s .25s; }
+.papir { position: absolute; z-index: 3; inset: 0; display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(4, 1fr); }
+.bit { background-color: var(--rod); background-image: radial-gradient(circle, rgba(255, 201, 60, .95) 0 3px, transparent 3.6px), repeating-linear-gradient(135deg, transparent 0 16px, rgba(255, 255, 255, .16) 16px 22px); background-size: 26px 26px, auto; box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .12); transition: transform .7s cubic-bezier(.2,.7,.4,1), opacity .7s; }
+.bit.revet { transform: translate(var(--dx), var(--dy)) rotate(var(--rot)) scale(.7); opacity: 0; pointer-events: none; }
+.band { position: absolute; z-index: 4; background: var(--paere); border: 2.5px solid #231a1a; transition: transform .6s, opacity .6s; pointer-events: none; }
+.band--v { left: 44%; width: 12%; top: 0; bottom: 0; }
+.band--h { top: 44%; height: 12%; left: 0; right: 0; }
+.storgave.band-borte .band--v { transform: translateY(-120%) rotate(14deg); opacity: 0; }
+.storgave.band-borte .band--h { transform: translateX(120%) rotate(-10deg); opacity: 0; }
+.storsloyfe { position: absolute; z-index: 5; left: 24%; top: -15%; width: 52%; transition: transform .6s cubic-bezier(.3,1.4,.5,1), opacity .6s; pointer-events: none; }
+.storsloyfe svg { display: block; width: 100%; overflow: visible; }
+.storgave.band-borte .storsloyfe { transform: translateY(-150%) rotate(-30deg); opacity: 0; }
+.utspring { position: absolute; z-index: 1; left: 0; right: 0; top: 30%; height: 0; }
+.spretter { position: absolute; bottom: -80px; width: 42%; height: auto; animation: sprett .8s cubic-bezier(.2,1.5,.4,1) both; }
+.spretter--v { left: 3%; }
+.spretter--h { right: 3%; animation-delay: .15s; }
+@keyframes sprett { from { transform: translateY(60%) scale(.6); opacity: 0; } to { transform: none; opacity: 1; } }
+.julebanner { position: absolute; z-index: 6; left: 50%; top: 56%; translate: -50% 0; padding: 8px 16px; border-radius: 10px; background: var(--paere); color: var(--rod-mork); border: 3px solid #231a1a; font: 400 26px/1 var(--display); white-space: nowrap; animation: boble .5s .5s cubic-bezier(.2,1.6,.4,1) both; }
+
+</style>
+</head>
+<body>
+<div id="app" class="app"></div>
+<script src="config.js"></script>
+
+<script>
+'use strict';
+// Generert av tools/figurdata.py – ankerpunkter for hatter, neser og drakter
+const FIGURDATA = {
+ "par": {
+  "w": 760,
+  "h": 933,
+  "hoder": [
+   {
+    "hvem": "han",
+    "hatt": {
+     "x": 295.8,
+     "y": 68.5,
+     "w": 260.3,
+     "rot": 15
+    },
+    "nese": {
+     "x": 307.1,
+     "y": 193.5,
+     "r": 11.3
+    },
+    "hake": {
+     "x": 324.5,
+     "y": 273.3
+    },
+    "ansikt": 251.6
+   },
+   {
+    "hvem": "hun",
+    "hatt": {
+     "x": 541.4,
+     "y": 108.4,
+     "w": 260.3,
+     "rot": -12
+    },
+    "nese": {
+     "x": 502.3,
+     "y": 261.1,
+     "r": 10.4
+    },
+    "hake": {
+     "x": 525.8,
+     "y": 314.9
+    },
+    "ansikt": 225.6
+   }
+  ]
+ },
+ "han-tommel": {
+  "w": 390,
+  "h": 560,
+  "hoder": [
+   {
+    "hvem": "han",
+    "hatt": {
+     "x": 272.8,
+     "y": 63.2,
+     "w": 240.0,
+     "rot": 15
+    },
+    "nese": {
+     "x": 283.2,
+     "y": 178.4,
+     "r": 10.4
+    },
+    "hake": {
+     "x": 299.2,
+     "y": 252.0
+    },
+    "ansikt": 232.0
+   }
+  ]
+ },
+ "hun-armer": {
+  "w": 347,
+  "h": 560,
+  "hoder": [
+   {
+    "hvem": "hun",
+    "hatt": {
+     "x": 148.7,
+     "y": 46.4,
+     "w": 236.0,
+     "rot": -12
+    },
+    "nese": {
+     "x": 113.3,
+     "y": 184.8,
+     "r": 9.4
+    },
+    "hake": {
+     "x": 134.5,
+     "y": 233.6
+    },
+    "ansikt": 204.5
+   }
+  ]
+ },
+ "han-hode-1": {
+  "w": 300,
+  "h": 320,
+  "hoder": [
+   {
+    "hvem": "han",
+    "hatt": {
+     "x": 168.6,
+     "y": 75.2,
+     "w": 285.7,
+     "rot": 15
+    },
+    "nese": {
+     "x": 181.0,
+     "y": 212.4,
+     "r": 12.4
+    },
+    "hake": {
+     "x": 200.0,
+     "y": 300.0
+    },
+    "ansikt": 276.2
+   }
+  ]
+ },
+ "hun-hode-1": {
+  "w": 320,
+  "h": 295,
+  "hoder": [
+   {
+    "hvem": "hun",
+    "hatt": {
+     "x": 137.1,
+     "y": 42.8,
+     "w": 217.7,
+     "rot": -12
+    },
+    "nese": {
+     "x": 104.5,
+     "y": 170.5,
+     "r": 8.7
+    },
+    "hake": {
+     "x": 124.1,
+     "y": 215.5
+    },
+    "ansikt": 188.7
+   }
+  ]
+ },
+ "han-staende": {
+  "w": 293,
+  "h": 820,
+  "hoder": [
+   {
+    "hvem": "han",
+    "hatt": {
+     "x": 172.5,
+     "y": 52.2,
+     "w": 181.4,
+     "rot": 4
+    },
+    "nese": {
+     "x": 193.5,
+     "y": 138.2,
+     "r": 8.3
+    },
+    "hake": {
+     "x": 188.4,
+     "y": 198.6
+    },
+    "ansikt": 168.7
+   }
+  ]
+ },
+ "hun-staende": {
+  "w": 290,
+  "h": 820,
+  "hoder": [
+   {
+    "hvem": "hun",
+    "hatt": {
+     "x": 119.4,
+     "y": 43.5,
+     "w": 197.9,
+     "rot": -6
+    },
+    "nese": {
+     "x": 102.9,
+     "y": 142.5,
+     "r": 7.9
+    },
+    "hake": {
+     "x": 109.5,
+     "y": 183.4
+    },
+    "ansikt": 164.9
+   }
+  ]
+ },
+ "han-hode-2": {
+  "w": 271,
+  "h": 335,
+  "hoder": [
+   {
+    "hvem": "han",
+    "hatt": {
+     "x": 140.0,
+     "y": 82.0,
+     "w": 285.0,
+     "rot": 4
+    },
+    "nese": {
+     "x": 173.0,
+     "y": 217.0,
+     "r": 13.0
+    },
+    "hake": {
+     "x": 165.0,
+     "y": 312.0
+    },
+    "ansikt": 265.0
+   }
+  ]
+ },
+ "hun-hode-2": {
+  "w": 320,
+  "h": 315,
+  "hoder": [
+   {
+    "hvem": "hun",
+    "hatt": {
+     "x": 153.5,
+     "y": 57.2,
+     "w": 260.2,
+     "rot": -6
+    },
+    "nese": {
+     "x": 131.8,
+     "y": 187.3,
+     "r": 10.4
+    },
+    "hake": {
+     "x": 140.5,
+     "y": 241.1
+    },
+    "ansikt": 216.8
+   }
+  ]
+ }
+};
+
+/* ==========================================================================
+   Kjerne: oppsett, hjelpefunksjoner, lyd, konfetti og kontakt med serveren.
+   ========================================================================== */
+
+
+const CONFIG = Object.assign({ apiUrl: '' }, window.JULEKALENDER_CONFIG || {});
+const DEMO = !CONFIG.apiUrl;
+const REDUSERT = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const ANTALL = 24;
+const MND = ['januar', 'februar', 'mars', 'april', 'mai', 'juni', 'juli', 'august', 'september', 'oktober', 'november', 'desember'];
+const LUKENAVN = {
+  hjul: 'Lykkehjul', skrapelodd: 'Skrapelodd', banditt: 'Enarmet banditt', velgpakke: 'Velg en pakke',
+  plinko: 'Plinko', reinsdyr: 'Reinsdyrløp', memory: 'Memory', pakkeapning: 'Pakkeåpning',
+};
+
+/* ---------- Små hjelpere ------------------------------------------------- */
+function el(tag, attrs, ...barn) {
+  const e = document.createElement(tag);
+  if (attrs) {
+    for (const [k, v] of Object.entries(attrs)) {
+      if (v === false || v === null || v === undefined) continue;
+      if (k === 'class') e.className = v;
+      else if (k === 'text') e.textContent = v;
+      else if (k === 'html') e.innerHTML = v;
+      else if (k.startsWith('on')) e.addEventListener(k.slice(2), v);
+      else if (k === 'style' && typeof v === 'object') Object.assign(e.style, v);
+      else e.setAttribute(k, v === true ? '' : v);
+    }
+  }
+  for (const b of barn.flat()) if (b !== null && b !== undefined && b !== false) e.append(b);
+  return e;
+}
+const vent = (ms) => new Promise((r) => setTimeout(r, ms));
+const tilfeldig = (a, b) => a + Math.random() * (b - a);
+const velg = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const begrens = (v, a, b) => Math.max(a, Math.min(b, v));
+function stokk(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+const svgNs = 'http://www.w3.org/2000/svg';
+
+const ease = {
+  utKubisk: (t) => 1 - Math.pow(1 - t, 3),
+  utKvint: (t) => 1 - Math.pow(1 - t, 5),
+  innUt: (t) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2),
+  utTilbake: (t) => { const c1 = 1.5, c3 = c1 + 1; return 1 + c3 * Math.pow(t - 1, 3) + c1 * Math.pow(t - 1, 2); },
+};
+
+/** Kjører en animasjon med requestAnimationFrame. steg(e, t) får verdi etter easing og rå tid (0–1). */
+function animer(varighet, steg, easing = (t) => t) {
+  return new Promise((res) => {
+    const t0 = performance.now();
+    function ramme(n) {
+      const t = Math.min(1, (n - t0) / varighet);
+      steg(easing(t), t);
+      if (t < 1) requestAnimationFrame(ramme); else res();
+    }
+    requestAnimationFrame(ramme);
+  });
+}
+
+const Lager = {
+  hent(k, standard) { try { const v = localStorage.getItem(k); return v === null ? standard : JSON.parse(v); } catch (e) { return standard; } },
+  sett(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* privat modus o.l. */ } },
+};
+
+function vibrer(m) { try { if (navigator.vibrate) navigator.vibrate(m); } catch (e) { /* ikke støttet */ } }
+
+/* ---------- Lyd (syntetisert, ingen lydfiler) ----------------------------- */
+const Lyd = {
+  ctx: null,
+  pa: Lager.hent('julekalender.lyd', true),
+  start() {
+    if (!this.pa) return null;
+    try {
+      if (!this.ctx) { const AC = window.AudioContext || window.webkitAudioContext; if (AC) this.ctx = new AC(); }
+      if (this.ctx && this.ctx.state === 'suspended') this.ctx.resume();
+    } catch (e) { this.ctx = null; }
+    return this.ctx;
+  },
+  sett(pa) { this.pa = pa; Lager.sett('julekalender.lyd', pa); if (pa) this.start(); },
+  tone(freq, varighet = 0.12, type = 'sine', volum = 0.12, nar = 0, glid = 0) {
+    const c = this.start();
+    if (!c) return;
+    const t = c.currentTime + nar;
+    const o = c.createOscillator();
+    const g = c.createGain();
+    o.type = type;
+    o.frequency.setValueAtTime(freq, t);
+    if (glid) o.frequency.exponentialRampToValueAtTime(Math.max(40, freq + glid), t + varighet);
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.exponentialRampToValueAtTime(volum, t + 0.008);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + varighet);
+    o.connect(g).connect(c.destination);
+    o.start(t);
+    o.stop(t + varighet + 0.02);
+  },
+  stoy(varighet = 0.08, volum = 0.08, frekvens = 1800, nar = 0) {
+    const c = this.start();
+    if (!c) return;
+    const t = c.currentTime + nar;
+    const len = Math.floor(c.sampleRate * varighet);
+    const buf = c.createBuffer(1, len, c.sampleRate);
+    const d = buf.getChannelData(0);
+    for (let i = 0; i < len; i++) d[i] = (Math.random() * 2 - 1) * (1 - i / len);
+    const src = c.createBufferSource();
+    src.buffer = buf;
+    const f = c.createBiquadFilter();
+    f.type = 'bandpass';
+    f.frequency.value = frekvens;
+    const g = c.createGain();
+    g.gain.value = volum;
+    src.connect(f).connect(g).connect(c.destination);
+    src.start(t);
+  },
+  tikk() { this.tone(1900, 0.03, 'square', 0.035); },
+  klonk() { this.tone(170, 0.11, 'triangle', 0.16, 0, -60); },
+  pop() { this.tone(520, 0.09, 'sine', 0.14, 0, 380); },
+  boing() { this.tone(180, 0.35, 'sine', 0.16, 0, 420); this.tone(260, 0.25, 'triangle', 0.05, 0.05, 300); },
+  riv() { this.stoy(0.13, 0.22, 2400); },
+  skrap() { this.stoy(0.05, 0.05, 3200); },
+  mynt(nar = 0) { this.tone(1568, 0.08, 'square', 0.04, nar); this.tone(2093, 0.16, 'square', 0.035, nar + 0.06); },
+  vinn() {
+    [523.25, 659.25, 783.99, 1046.5, 1318.5].forEach((f, i) => {
+      this.tone(f, 0.5, 'sine', 0.11, i * 0.09);
+      this.tone(f * 2, 0.25, 'triangle', 0.025, i * 0.09);
+    });
+  },
+  telle() { this.tone(1200 + Math.random() * 300, 0.035, 'triangle', 0.05); },
+};
+
+/* ---------- Konfetti ------------------------------------------------------ */
+function konfetti(antall = 160) {
+  if (REDUSERT) antall = 40;
+  const c = el('canvas', { class: 'konfetti' });
+  document.body.append(c);
+  const dpr = Math.min(2, window.devicePixelRatio || 1);
+  const W = window.innerWidth;
+  const H = window.innerHeight;
+  c.width = W * dpr;
+  c.height = H * dpr;
+  const x = c.getContext('2d');
+  x.scale(dpr, dpr);
+  const farger = ['#ffc93c', '#c8202a', '#1e6b45', '#f5f7ff', '#f6eedf', '#e5525a'];
+  const biter = Array.from({ length: antall }, () => ({
+    x: W / 2 + tilfeldig(-40, 40),
+    y: H * 0.42,
+    vx: tilfeldig(-7, 7),
+    vy: tilfeldig(-15, -5),
+    r: tilfeldig(0, Math.PI * 2),
+    vr: tilfeldig(-0.3, 0.3),
+    w: tilfeldig(6, 11),
+    h: tilfeldig(8, 15),
+    f: velg(farger),
+  }));
+  const t0 = performance.now();
+  return new Promise((res) => {
+    function ramme(n) {
+      const t = n - t0;
+      x.clearRect(0, 0, W, H);
+      biter.forEach((b) => {
+        b.vy += 0.32;
+        b.vx *= 0.99;
+        b.x += b.vx;
+        b.y += b.vy;
+        b.r += b.vr;
+        x.save();
+        x.translate(b.x, b.y);
+        x.rotate(b.r);
+        x.fillStyle = b.f;
+        x.globalAlpha = Math.max(0, 1 - t / 3200);
+        x.fillRect(-b.w / 2, -b.h / 2, b.w, b.h * Math.abs(Math.cos(b.r * 2)));
+        x.restore();
+      });
+      if (t < 3200) requestAnimationFrame(ramme); else { c.remove(); res(); }
+    }
+    requestAnimationFrame(ramme);
+  });
+}
+
+/* ---------- Kontakt med serveren ----------------------------------------- */
+class ApiFeil extends Error {
+  constructor(melding, kode) { super(melding); this.kode = kode || 'FEIL'; }
+}
+
+const FjernApi = {
+  async kall(body) {
+    const kontroll = new AbortController();
+    const tidsavbrudd = setTimeout(() => kontroll.abort(), 25000);
+    let data;
+    try {
+      // Vanlig tekst gir en «enkel» forespørsel uten CORS-forhåndssjekk (Apps Script støtter ikke den)
+      const res = await fetch(CONFIG.apiUrl, { method: 'POST', body: JSON.stringify(body), redirect: 'follow', signal: kontroll.signal });
+      data = await res.json();
+    } catch (e) {
+      throw new ApiFeil('Får ikke kontakt med kalenderen. Sjekk at du er på nett, og prøv igjen.', 'NETT');
+    } finally {
+      clearTimeout(tidsavbrudd);
+    }
+    if (!data || !data.ok) throw new ApiFeil((data && data.error) || 'Noe gikk galt. Prøv igjen om litt.', data && data.code);
+    return data;
+  },
+  status(k) { return this.kall({ action: 'status', k }); },
+  aapne(k, day) { return this.kall({ action: 'open', k, day }); },
+  nullstill(k, day) { return this.kall({ action: 'resetTest', k, day }); },
+};
+
+/* Demo: etterligner serveren i nettleseren, slik at siden kan prøves uten oppsett.
+   ?dag=8 viser hvordan kalenderen ser ut for en deltaker 8. desember. */
+const DemoApi = (() => {
+  const BELOP = Array.from({ length: ANTALL }, (_, i) => (i + 1) * 5);
+  const ROT = ['hjul', 'skrapelodd', 'banditt', 'velgpakke', 'plinko', 'reinsdyr', 'memory'];
+  const KALENDER = Array.from({ length: ANTALL }, (_, i) => (i === ANTALL - 1 ? 'pakkeapning' : ROT[i % ROT.length]));
+  const p = new URLSearchParams(location.search);
+  const hashDag = /^#dag-(\d+)$/.exec(location.hash || '');
+  const simDag = p.has('dag') ? begrens(parseInt(p.get('dag'), 10) || 0, 0, ANTALL)
+    : (hashDag ? begrens(parseInt(hashDag[1], 10), 0, ANTALL) : null);
+  const nokkel = `julekalender.demo.${simDag === null ? 'test' : 'dag' + simDag}`;
+  let tilstand = Lager.hent(nokkel, null);
+  if (!tilstand) {
+    tilstand = { trekk: {} };
+    if (simDag) { // fyll inn noen åpnede luker, men la et par stå til gode
+      const brukt = stokk(BELOP);
+      for (let d = 1; d < simDag; d++) if (d % 4 !== 2) tilstand.trekk[d] = { amount: brukt.pop(), type: KALENDER[d - 1] };
+    }
+  }
+  const lagre = () => Lager.sett(nokkel, tilstand);
+  function status() {
+    const erTest = simDag === null;
+    const openDay = erTest ? ANTALL : simDag;
+    let total = 0;
+    const days = KALENDER.map((type, i) => {
+      const dag = i + 1;
+      const t = tilstand.trekk[dag];
+      if (t) total += t.amount;
+      return { day: dag, type: t ? t.type : (erTest || dag <= openDay ? type : null), opened: !!t, amount: t ? t.amount : null };
+    });
+    return { ok: true, name: 'Demo', isTest: erTest, demo: true, year: 2026, openDay, beforeStart: !erTest && openDay === 0, closed: false, opensAt: 0, now: '2026-12-01 12:00', days, total };
+  }
+  return {
+    async status() { await vent(200); return status(); },
+    async aapne(k, day) {
+      await vent(tilfeldig(450, 1100));
+      if (!tilstand.trekk[day]) {
+        if (simDag !== null && day > simDag) throw new ApiFeil(`Luke ${day} åpner ${day}. desember.`, 'IKKE_AAPEN');
+        const brukt = Object.values(tilstand.trekk).map((t) => t.amount);
+        tilstand.trekk[day] = { amount: velg(BELOP.filter((b) => !brukt.includes(b))), type: KALENDER[day - 1] };
+        lagre();
+      }
+      const s = status();
+      return { ok: true, day, amount: tilstand.trekk[day].amount, total: s.total, status: s };
+    },
+    async nullstill(k, day) {
+      await vent(200);
+      if (day) delete tilstand.trekk[day]; else tilstand.trekk = {};
+      lagre();
+      return status();
+    },
+  };
+})();
+
+const Api = DEMO ? DemoApi : FjernApi;
+
+/* ---------- Bildefiler: data-URI-er gjøres om til blob-adresser (demo) ---- */
+(function () {
+  const b = window.JK_BILDER;
+  if (!b) return;
+  for (const [navn, url] of Object.entries(b)) {
+    if (typeof url !== 'string' || !url.startsWith('data:')) continue;
+    try {
+      const [hode, data] = url.split(',');
+      const mime = hode.slice(5).split(';')[0];
+      const bytes = atob(data);
+      const arr = new Uint8Array(bytes.length);
+      for (let i = 0; i < bytes.length; i++) arr[i] = bytes.charCodeAt(i);
+      b[navn] = URL.createObjectURL(new Blob([arr], { type: mime }));
+    } catch (e) { /* behold data-URI */ }
+  }
+})();
+
+/** Registeret som spillene legger seg inn i. */
+const SPILL = {};
+
+/* ==========================================================================
+   Figurene: utklipp av de to personene, med tegnede luer og drakter.
+   Alt bygges som inline SVG slik at figurene skalerer skarpt og kan animeres.
+   ========================================================================== */
+
+const BILDE = (navn) => (window.JK_BILDER && window.JK_BILDER[navn]) || `bilder/${navn}.webp`;
+
+const FARGE = {
+  strek: '#231a1a', rod: '#c8202a', rodMork: '#951722', rodLys: '#e5525a',
+  gronn: '#1e6b45', gronnMork: '#14492f', gronnLys: '#3a9a68',
+  gull: '#ffc93c', gullMork: '#c58a12', hvit: '#fbf6ee', hvitSkygge: '#e2d8c6',
+  brun: '#8b5a2b', brunLys: '#d9b38c', brunMork: '#4a2e16', pepper: '#b5712f', pepperMork: '#8a5220',
+  hud: '#f1c19b', svart: '#2a2626', bla: '#2f5fa7', sno: '#f4f7ff', snoSkygge: '#c9d3ea',
+};
+const STREK = `stroke="${FARGE.strek}" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"`;
+const STREK_TYKK = `stroke="${FARGE.strek}" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"`;
+
+/* ---------- Luer og hodepynt ----------------------------------------------
+   Lokalt koordinatsystem: bremmens midtpunkt er (0,0) og bremmen er 100 enheter bred.
+   boks = [minX, minY, maxX, maxY] brukes til å beregne utsnitt.                 */
+
+function dobbelStrek(d, farge, bredde) {
+  return `<path d="${d}" fill="none" stroke="${FARGE.strek}" stroke-width="${bredde + 4}" stroke-linecap="round" stroke-linejoin="round"/>` +
+    `<path d="${d}" fill="none" stroke="${farge}" stroke-width="${bredde}" stroke-linecap="round" stroke-linejoin="round"/>`;
+}
+
+function stjernePath(cx, cy, R, r, spisser = 5) {
+  const pkt = [];
+  for (let i = 0; i < spisser * 2; i++) {
+    const v = -Math.PI / 2 + (i * Math.PI) / spisser;
+    const rad = i % 2 === 0 ? R : r;
+    pkt.push(`${(cx + rad * Math.cos(v)).toFixed(1)} ${(cy + rad * Math.sin(v)).toFixed(1)}`);
+  }
+  return `M${pkt.join(' L')} Z`;
+}
+
+const GEVIR_GREN = 'M-28 -10 C-34 -32 -42 -50 -44 -76 M-37 -34 C-49 -38 -57 -46 -63 -58 M-42 -56 C-35 -63 -31 -71 -29 -83';
+
+const HATTER = {
+  nisselue: {
+    boks: [-56, -88, 77, 8],
+    svg: `<path d="M-46 -6 C-44 -46 -22 -78 10 -82 C36 -85 56 -70 64 -46 C52 -52 40 -54 30 -46 C34 -32 40 -18 46 -6 Z" fill="${FARGE.rod}" ${STREK}/>
+      <path d="M-30 -16 C-26 -44 -10 -64 10 -71" fill="none" stroke="${FARGE.rodLys}" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+      <rect x="-53" y="-17" width="106" height="23" rx="11.5" fill="${FARGE.hvit}" ${STREK}/>
+      <path d="M-40 -6 q4 -4 8 0 M-14 -8 q4 -4 8 0 M14 -6 q4 -4 8 0 M36 -8 q4 -4 8 0" fill="none" stroke="${FARGE.hvitSkygge}" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="64" cy="-46" r="11" fill="${FARGE.hvit}" ${STREK}/>`,
+  },
+  alvelue: {
+    boks: [-54, -113, 46, 4],
+    svg: `<path d="M-44 -8 C-30 -42 -4 -76 30 -104 C34 -107 39 -103 36 -98 C28 -70 34 -38 44 -8 Z" fill="${FARGE.gronn}" ${STREK}/>
+      <path d="M-28 -18 C-16 -46 4 -70 22 -88" fill="none" stroke="${FARGE.gronnLys}" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+      <path d="M-52 -18 H52 V2 L44 -6 L36 2 L28 -6 L20 2 L12 -6 L4 2 L-4 -6 L-12 2 L-20 -6 L-28 2 L-36 -6 L-44 2 L-52 -6 Z" fill="${FARGE.rod}" ${STREK}/>
+      <circle cx="37" cy="-104" r="7.5" fill="${FARGE.gull}" ${STREK}/>
+      <path d="M33 -102 h8" stroke="${FARGE.strek}" stroke-width="2"/>`,
+  },
+  gevir: {
+    boks: [-70, -90, 70, 8],
+    svg: `${dobbelStrek('M-46 4 Q0 -30 46 4', '#7a4a22', 5)}
+      <g>${dobbelStrek(GEVIR_GREN, '#a8743c', 7)}</g>
+      <g transform="scale(-1 1)">${dobbelStrek(GEVIR_GREN, '#a8743c', 7)}</g>`,
+  },
+  flosshatt: {
+    boks: [-56, -84, 56, 6],
+    svg: `<ellipse cx="0" cy="-5" rx="54" ry="9" fill="${FARGE.svart}" ${STREK}/>
+      <path d="M-32 -8 L-28 -76 Q0 -82 28 -76 L32 -8 Q0 -2 -32 -8 Z" fill="${FARGE.svart}" ${STREK}/>
+      <path d="M-31 -27 Q0 -21 31 -27 L31.8 -13 Q0 -7 -31.8 -13 Z" fill="${FARGE.rod}" ${STREK}/>
+      <ellipse cx="0" cy="-76" rx="28" ry="6" fill="#423b3b" ${STREK}/>
+      <path d="M-20 -66 L-18 -34" stroke="#5a5252" stroke-width="5" stroke-linecap="round"/>
+      <path d="M12 -22 c6 -10 18 -10 22 -3 c-7 2 -11 6 -11 13 c-4 -4 -8 -7 -11 -10 Z" fill="${FARGE.gronn}" ${STREK}/>
+      <circle cx="13" cy="-20" r="3.6" fill="${FARGE.rod}" ${STREK}/><circle cx="19" cy="-25" r="3.6" fill="${FARGE.rod}" ${STREK}/>`,
+  },
+  stjerne: {
+    boks: [-44, -90, 44, 8],
+    svg: `${dobbelStrek('M-40 4 Q0 -22 40 4', FARGE.gullMork, 4.5)}
+      ${dobbelStrek('M0 -10 V-34', FARGE.gullMork, 3.5)}
+      <path d="${stjernePath(0, -60, 28, 12)}" fill="${FARGE.gull}" ${STREK}/>
+      <path d="M-8 -66 L0 -80" stroke="#fff3c4" stroke-width="4" stroke-linecap="round"/>`,
+  },
+  glorie: {
+    boks: [-50, -46, 50, -14],
+    svg: `<g class="glorie"><ellipse cx="0" cy="-30" rx="42" ry="11" fill="none" stroke="#ffe48a" stroke-width="14" opacity=".35"/>
+      <ellipse cx="0" cy="-30" rx="42" ry="11" fill="none" stroke="${FARGE.strek}" stroke-width="8"/>
+      <ellipse cx="0" cy="-30" rx="42" ry="11" fill="none" stroke="${FARGE.gull}" stroke-width="4.5"/></g>`,
+  },
+  sloyfe: {
+    boks: [-50, -52, 50, 12],
+    svg: `<g transform="translate(0 -6)"><path d="M-2 -16 L-22 12 L-12 10 L-8 18 Z" fill="${FARGE.rodMork}" ${STREK}/>
+      <path d="M2 -16 L20 14 L10 11 L7 19 Z" fill="${FARGE.rodMork}" ${STREK}/>
+      <path d="M0 -18 C-14 -46 -50 -46 -46 -24 C-44 -10 -18 -10 0 -18 Z" fill="${FARGE.rod}" ${STREK}/>
+      <path d="M0 -18 C14 -46 50 -46 46 -24 C44 -10 18 -10 0 -18 Z" fill="${FARGE.rod}" ${STREK}/>
+      <path d="M-34 -32 C-28 -38 -18 -36 -12 -28" fill="none" stroke="${FARGE.rodLys}" stroke-width="4" stroke-linecap="round"/>
+      <ellipse cx="0" cy="-18" rx="9" ry="8" fill="#e0353d" ${STREK}/></g>`,
+  },
+  kokkelue: {
+    boks: [-60, -88, 60, 4],
+    svg: `<path d="M-38 -22 C-62 -34 -50 -74 -22 -64 C-16 -90 18 -90 22 -64 C50 -76 62 -36 38 -22 Z" fill="#ffffff" ${STREK}/>
+      <path d="M-12 -30 C-14 -44 -12 -54 -8 -60 M12 -30 C14 -44 12 -54 8 -60" fill="none" stroke="#d8d2c8" stroke-width="3" stroke-linecap="round"/>
+      <rect x="-40" y="-26" width="80" height="28" rx="5" fill="${FARGE.hvit}" ${STREK}/>`,
+  },
+};
+
+function hattTransform(navn, x, y, w, rot) {
+  return `translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${rot}) scale(${(w / 100).toFixed(4)})`;
+}
+
+function hattBoks(navn, x, y, w, rot) {
+  const [x1, y1, x2, y2] = HATTER[navn].boks;
+  const k = w / 100;
+  const c = Math.cos((rot * Math.PI) / 180);
+  const s = Math.sin((rot * Math.PI) / 180);
+  const pkt = [[x1, y1], [x2, y1], [x1, y2], [x2, y2]].map(([px, py]) => [x + k * (px * c - py * s), y + k * (px * s + py * c)]);
+  return [Math.min(...pkt.map((p) => p[0])), Math.min(...pkt.map((p) => p[1])), Math.max(...pkt.map((p) => p[0])), Math.max(...pkt.map((p) => p[1]))];
+}
+
+function hattSvg(navn, x, y, w, rot) {
+  if (!navn || !HATTER[navn]) return '';
+  return `<g class="hatt hatt-${navn}" transform="${hattTransform(navn, x, y, w, rot)}">${HATTER[navn].svg}</g>`;
+}
+
+function neseSvg(x, y, r) {
+  return `<g class="rodnese"><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r.toFixed(1)}" fill="#e3242b" stroke="${FARGE.strek}" stroke-width="${(r * 0.18).toFixed(1)}"/>` +
+    `<circle cx="${(x - r * 0.35).toFixed(1)}" cy="${(y - r * 0.38).toFixed(1)}" r="${(r * 0.3).toFixed(1)}" fill="#ff9a9a"/></g>`;
+}
+
+/* ---------- Drakter ---------------------------------------------------------
+   Figurkoordinater: 200 enheter bredt, halsen ved (100, 152).
+   kropp/arm tegnes bak hodet, krage foran (skjuler kanten av hodeutklippet). */
+
+const TORSO = 'M62 160 C74 151 126 151 138 160 C150 168 154 200 156 296 C132 306 68 306 44 296 C46 200 50 168 62 160 Z';
+const ERME = 'M62 164 C48 168 40 186 36 214 L31 258 C37 264 49 264 55 258 L58 220 C60 200 64 186 72 176 Z';
+const KRAGE_RUND = 'M64 158 C76 146 124 146 136 158 C130 171 70 171 64 158 Z';
+
+function arm(ermeFarge, handFarge, mansjett = '') {
+  return `<path d="${ERME}" fill="${ermeFarge}" ${STREK}/>${mansjett}<ellipse cx="43" cy="267" rx="12.5" ry="11.5" fill="${handFarge}" ${STREK}/>`;
+}
+
+function siksak(x1, x2, y, h, steg) {
+  let d = `M${x1} ${y}`;
+  let opp = true;
+  for (let x = x1 + steg; x <= x2 + 0.1; x += steg) { d += ` L${x} ${opp ? y - h : y}`; opp = !opp; }
+  return d;
+}
+
+const DRAKTER = {
+  nisse: {
+    hatt: 'nisselue',
+    kropp: `<path d="${TORSO}" fill="${FARGE.rod}" ${STREK}/>
+      <path d="M50 236 C80 245 120 245 150 236 L151 253 C120 262 80 262 49 253 Z" fill="${FARGE.svart}" ${STREK}/>
+      <rect x="90" y="158" width="20" height="142" rx="8" fill="${FARGE.hvit}" ${STREK}/>
+      <rect x="86" y="235" width="28" height="22" rx="3" fill="none" stroke="${FARGE.gull}" stroke-width="5"/>
+      <path d="M44 284 C68 296 132 296 156 284 L157 300 C132 312 68 312 43 300 Z" fill="${FARGE.hvit}" ${STREK}/>`,
+    arm: arm(FARGE.rod, FARGE.hvit, `<path d="M31 246 C39 252 49 252 57 246 L56 259 C48 265 38 265 30 259 Z" fill="${FARGE.hvit}" ${STREK}/>`),
+    krage: `<path d="${KRAGE_RUND}" fill="${FARGE.hvit}" ${STREK}/>`,
+  },
+  alv: {
+    hatt: 'alvelue',
+    kropp: `<path d="${TORSO}" fill="${FARGE.gronn}" ${STREK}/>
+      <path d="M48 240 C80 248 120 248 152 240 L153 254 C120 262 80 262 47 254 Z" fill="${FARGE.brun}" ${STREK}/>
+      <rect x="90" y="238" width="20" height="18" rx="3" fill="none" stroke="${FARGE.gull}" stroke-width="4"/>
+      <path d="M44 280 L156 280 L157 300 L146 290 L134 302 L122 290 L110 302 L98 290 L86 302 L74 290 L62 302 L50 290 L43 300 Z" fill="${FARGE.rod}" ${STREK}/>
+      <circle cx="74" cy="208" r="5" fill="${FARGE.gull}" ${STREK}/><circle cx="126" cy="208" r="5" fill="${FARGE.gull}" ${STREK}/>`,
+    arm: arm(FARGE.gronn, FARGE.rod, `<path d="M31 246 C39 252 49 252 57 246 L56 258 C48 264 38 264 30 258 Z" fill="${FARGE.rod}" ${STREK}/>`),
+    krage: `<path d="M62 156 L74 178 L86 162 L100 182 L114 162 L126 178 L138 156 C124 147 76 147 62 156 Z" fill="${FARGE.rod}" ${STREK}/>
+      <circle cx="74" cy="178" r="4.5" fill="${FARGE.gull}" ${STREK}/><circle cx="100" cy="182" r="4.5" fill="${FARGE.gull}" ${STREK}/><circle cx="126" cy="178" r="4.5" fill="${FARGE.gull}" ${STREK}/>`,
+  },
+  rein: {
+    hatt: 'gevir',
+    nese: true,
+    kropp: `<path d="${TORSO}" fill="${FARGE.brun}" ${STREK}/>
+      <ellipse cx="100" cy="238" rx="34" ry="54" fill="${FARGE.brunLys}" ${STREK}/>
+      <path d="M86 206 q6 -6 12 0 q6 -6 12 0" fill="none" stroke="#b98d63" stroke-width="3" stroke-linecap="round"/>`,
+    arm: arm(FARGE.brun, FARGE.brunMork, '<path d="M43 258 V276" stroke="#2a1a0c" stroke-width="2.4"/>'),
+    krage: `<path d="${KRAGE_RUND}" fill="${FARGE.brunLys}" ${STREK}/>`,
+  },
+  snomann: {
+    hatt: 'flosshatt',
+    armer: 'kvist',
+    kropp: `<circle cx="100" cy="236" r="66" fill="${FARGE.sno}" ${STREK}/>
+      <path d="M58 262 C70 292 120 300 146 272" fill="none" stroke="${FARGE.snoSkygge}" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="100" cy="200" r="6" fill="${FARGE.svart}"/><circle cx="100" cy="232" r="6" fill="${FARGE.svart}"/><circle cx="100" cy="264" r="6" fill="${FARGE.svart}"/>`,
+    arm: `${dobbelStrek('M58 200 L18 168 M34 181 L28 156 M27 175 L6 174', FARGE.brun, 5)}`,
+    krage: `<path d="M62 158 C74 148 126 148 138 158 C140 168 136 176 130 178 C110 184 90 184 70 178 C64 176 60 168 62 158 Z" fill="${FARGE.rod}" ${STREK}/>
+      <path d="M114 172 L132 224 L116 228 L104 178 Z" fill="${FARGE.rod}" ${STREK}/>
+      <path d="M118 192 L127 190 M121 206 L130 204" stroke="${FARGE.hvit}" stroke-width="4" stroke-linecap="round"/>`,
+  },
+  pepperkake: {
+    hatt: 'kokkelue',
+    kropp: `<path d="${TORSO}" fill="${FARGE.pepper}" ${STREK}/>
+      <path d="${siksak(52, 148, 286, 8, 8)}" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="100" cy="198" r="8" fill="${FARGE.rod}" ${STREK}/><circle cx="100" cy="228" r="8" fill="${FARGE.gronn}" ${STREK}/><circle cx="100" cy="258" r="8" fill="${FARGE.gull}" ${STREK}/>`,
+    arm: arm(FARGE.pepper, FARGE.pepper, `<path d="${siksak(34, 56, 250, 6, 5.5)}" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/>`),
+    krage: `<path d="M64 158 C76 146 124 146 136 158 C130 171 70 171 64 158 Z" fill="${FARGE.pepper}" ${STREK}/>
+      <path d="M68 162 q5 7 10 0 q5 7 10 0 q5 7 10 0 q5 7 10 0 q5 7 10 0 q5 7 10 0 q5 7 10 0" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/>`,
+  },
+  engel: {
+    hatt: 'glorie',
+    bak: `<g class="vinger"><path d="M70 178 C30 150 4 168 2 206 C16 200 22 210 12 226 C28 222 34 232 28 246 C50 236 62 220 76 198 Z" fill="#ffffff" ${STREK}/>
+      <path d="M58 186 C40 182 26 190 20 204 M60 202 C46 204 36 212 32 222" fill="none" stroke="#c9cfdc" stroke-width="3" stroke-linecap="round"/>
+      <g transform="translate(200 0) scale(-1 1)"><path d="M70 178 C30 150 4 168 2 206 C16 200 22 210 12 226 C28 222 34 232 28 246 C50 236 62 220 76 198 Z" fill="#ffffff" ${STREK}/>
+      <path d="M58 186 C40 182 26 190 20 204 M60 202 C46 204 36 212 32 222" fill="none" stroke="#c9cfdc" stroke-width="3" stroke-linecap="round"/></g></g>`,
+    kropp: `<path d="M62 160 C74 151 126 151 138 160 C152 170 160 220 166 298 C134 308 66 308 34 298 C40 220 48 170 62 160 Z" fill="#f6f1e7" ${STREK}/>
+      <path d="M96 160 L96 302 M104 160 L104 302" stroke="${FARGE.gull}" stroke-width="4"/>
+      <path d="M35 288 C66 298 134 298 165 288" fill="none" stroke="${FARGE.gull}" stroke-width="6"/>`,
+    arm: `<path d="M62 164 C46 168 36 190 30 218 L20 256 C34 266 56 266 62 256 L60 222 C62 200 66 186 72 176 Z" fill="#f6f1e7" ${STREK}/>
+      <path d="M21 252 C34 260 52 260 61 252" fill="none" stroke="${FARGE.gull}" stroke-width="4"/>
+      <ellipse cx="41" cy="266" rx="11" ry="10.5" fill="${FARGE.hud}" ${STREK}/>`,
+    krage: `<path d="M64 158 C76 146 124 146 136 158 C130 170 70 170 64 158 Z" fill="${FARGE.gull}" ${STREK}/>`,
+  },
+  tre: {
+    hatt: 'stjerne',
+    kropp: `<path d="M74 156 C90 150 110 150 126 156 L164 298 C130 310 70 310 36 298 Z" fill="${FARGE.gronn}" ${STREK}/>
+      <path d="M64 208 C84 226 118 224 138 198 M50 260 C82 284 126 280 152 248" fill="none" stroke="${FARGE.gull}" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="82" cy="190" r="7" fill="${FARGE.rod}" ${STREK}/><circle cx="118" cy="236" r="7.5" fill="${FARGE.bla}" ${STREK}/>
+      <circle cx="74" cy="244" r="7.5" fill="${FARGE.gull}" ${STREK}/><circle cx="128" cy="282" r="7.5" fill="${FARGE.rod}" ${STREK}/>
+      <circle cx="96" cy="278" r="7" fill="${FARGE.hvit}" ${STREK}/>`,
+    arm: arm(FARGE.gronnMork, FARGE.rod),
+    krage: `<path d="${siksak(66, 134, 164, 7, 6.8)} L134 168 C112 178 88 178 66 168 Z" fill="${FARGE.gull}" ${STREK}/>`,
+  },
+  gave: {
+    hatt: 'sloyfe',
+    kropp: `<rect x="46" y="160" width="108" height="140" rx="8" fill="${FARGE.rod}" ${STREK}/>
+      <rect x="91" y="160" width="18" height="140" fill="${FARGE.gull}" ${STREK}/>
+      <rect x="46" y="222" width="108" height="18" fill="${FARGE.gull}" ${STREK}/>
+      <path d="M56 176 L64 168 M134 290 L144 280" stroke="${FARGE.rodLys}" stroke-width="4" stroke-linecap="round"/>`,
+    arm: arm(FARGE.rod, FARGE.gull),
+    krage: `<path d="${KRAGE_RUND}" fill="${FARGE.gull}" ${STREK}/>`,
+  },
+  genser: {
+    hatt: null,
+    kropp: `<path d="${TORSO}" fill="${FARGE.rod}" ${STREK}/>
+      <path d="M50 196 C80 202 120 202 150 196 L151 226 C120 232 80 232 49 226 Z" fill="#f6eedf" ${STREK}/>
+      <path d="${siksak(54, 146, 214, 7, 7.7)}" fill="none" stroke="${FARGE.rod}" stroke-width="3.4" stroke-linejoin="round"/>
+      <path d="M46 284 C70 294 130 294 154 284" fill="none" stroke="${FARGE.rodMork}" stroke-width="10"/>
+      <path d="M60 288 v9 M74 290 v10 M88 291 v10 M102 291 v10 M116 291 v10 M130 290 v10 M144 288 v9" stroke="#7a1019" stroke-width="2"/>`,
+    arm: arm(FARGE.rod, FARGE.hud, `<path d="M33 236 C41 242 51 242 58 236 L57 246 C49 252 40 252 32 246 Z" fill="#f6eedf" ${STREK}/>`),
+    krage: `<path d="${KRAGE_RUND}" fill="${FARGE.rodMork}" ${STREK}/><path d="M76 156 v8 M88 154 v10 M100 153 v10 M112 154 v10 M124 156 v8" stroke="#6e0e17" stroke-width="2"/>`,
+  },
+};
+
+const DRAKTNAVN = Object.keys(DRAKTER);
+
+/* ---------- Byggere -------------------------------------------------------- */
+
+function lagSvg(innhold, viewBox, klasse = '', aria = '') {
+  const tpl = document.createElement('template');
+  tpl.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="${klasse}" viewBox="${viewBox}" ${aria ? `role="img" aria-label="${aria}"` : 'aria-hidden="true"'} overflow="visible">${innhold}</svg>`;
+  return tpl.content.firstElementChild;
+}
+
+function bildeTag(navn, x, y, w, h) {
+  return `<image href="${BILDE(navn)}" x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${w.toFixed(1)}" height="${h.toFixed(1)}" preserveAspectRatio="none"/>`;
+}
+
+const NAVN = { han: 'han', hun: 'hun' };
+
+/**
+ * Hode alene, med valgfri lue/hodepynt og rød nese.
+ * o: { hvem: 'han'|'hun', variant: 1|2, hatt, nese, klasse, tett (kvadratisk), fast (fast ramme) }
+ */
+function figurHode(o) {
+  const navn = `${o.hvem}-hode-${o.variant || 2}`;
+  const fd = FIGURDATA[navn];
+  const h = fd.hoder[0];
+  let boks = [0, 0, fd.w, fd.h];
+  let innhold = bildeTag(navn, 0, 0, fd.w, fd.h);
+  if (o.nese) innhold += neseSvg(h.nese.x, h.nese.y, h.nese.r * 1.35);
+  if (o.hatt) {
+    innhold += hattSvg(o.hatt, h.hatt.x, h.hatt.y, h.hatt.w, h.hatt.rot);
+    const hb = hattBoks(o.hatt, h.hatt.x, h.hatt.y, h.hatt.w, h.hatt.rot);
+    boks = [Math.min(boks[0], hb[0]), Math.min(boks[1], hb[1]), Math.max(boks[2], hb[2]), Math.max(boks[3], hb[3])];
+  }
+  if (o.fast) {
+    // fast utsnitt rundt hodet (samme størrelse uansett lue), luer kan stikke utenfor
+    boks = [-fd.w * 0.12, -fd.h * 0.62, fd.w * 1.12, fd.h];
+  } else if (o.tett) {
+    // kvadratisk utsnitt rundt ansiktet (til symboler og kort)
+    const cx = h.hake.x - h.ansikt * 0.05;
+    const top = boks[1];
+    const side = Math.max(boks[3] - top, boks[2] - boks[0]) * 0.94;
+    boks = [cx - side / 2, top, cx + side / 2, top + side];
+  }
+  const pad = (boks[2] - boks[0]) * 0.02;
+  const vb = [boks[0] - pad, boks[1] - pad, boks[2] - boks[0] + 2 * pad, boks[3] - boks[1] + 2 * pad].map((v) => v.toFixed(1)).join(' ');
+  return lagSvg(`<g class="hode">${innhold}</g>`, vb, `figur figur-hode ${o.klasse || ''}`);
+}
+
+/**
+ * Figur i drakt: personens hode på en tegnet kropp.
+ * o: { hvem, variant, drakt, hatt (null = ingen, undefined = draktens), nese, klasse }
+ */
+function figurDrakt(o) {
+  const drakt = DRAKTER[o.drakt] || DRAKTER.nisse;
+  const navn = `${o.hvem}-hode-${o.variant || 2}`;
+  const fd = FIGURDATA[navn];
+  const h = fd.hoder[0];
+  const s = 112 / h.ansikt;
+  const ix = 100 - h.hake.x * s;
+  const iy = 156 - h.hake.y * s;
+  const hatt = o.hatt === undefined ? drakt.hatt : o.hatt;
+  const nese = o.nese === undefined ? !!drakt.nese : o.nese;
+  const armer = drakt.armer === 'kvist'
+    ? `<g class="arm arm-v kvist">${drakt.arm}</g><g class="arm arm-h kvist"><g transform="translate(200 0) scale(-1 1)">${drakt.arm}</g></g>`
+    : `<g class="arm arm-v">${drakt.arm}</g><g class="arm arm-h"><g transform="translate(200 0) scale(-1 1)">${drakt.arm}</g></g>`;
+  const innhold = `${drakt.bak || ''}<g class="kropp">${drakt.kropp}</g>${armer}
+    <g class="hode">${bildeTag(navn, ix, iy, fd.w * s, fd.h * s)}${nese ? neseSvg(ix + h.nese.x * s, iy + h.nese.y * s, h.nese.r * s * 1.35) : ''}${hatt ? hattSvg(hatt, ix + h.hatt.x * s, iy + h.hatt.y * s, h.hatt.w * s, h.hatt.rot) : ''}</g>
+    <g class="krage">${drakt.krage}</g>`;
+  return lagSvg(innhold, '0 -70 200 378', `figur figur-drakt drakt-${o.drakt} ${o.klasse || ''}`);
+}
+
+/**
+ * Fotofigur (utklipp fra illustrasjonene), med valgfrie luer.
+ * o: { bilde: 'han-tommel'|'hun-armer'|'han-staende'|'hun-staende'|'par', hatter: [..per hode], neser: [..], klasse }
+ */
+function figurFoto(o) {
+  const fd = FIGURDATA[o.bilde];
+  let boks = [0, 0, fd.w, fd.h];
+  let innhold = bildeTag(o.bilde, 0, 0, fd.w, fd.h);
+  fd.hoder.forEach((h, i) => {
+    const hatt = (o.hatter || [])[i];
+    if ((o.neser || [])[i]) innhold += neseSvg(h.nese.x, h.nese.y, h.nese.r * 1.35);
+    if (hatt) {
+      innhold += hattSvg(hatt, h.hatt.x, h.hatt.y, h.hatt.w, h.hatt.rot);
+      const hb = hattBoks(hatt, h.hatt.x, h.hatt.y, h.hatt.w, h.hatt.rot);
+      boks = [Math.min(boks[0], hb[0]), Math.min(boks[1], hb[1]), Math.max(boks[2], hb[2]), Math.max(boks[3], hb[3])];
+    }
+  });
+  const vb = [boks[0], boks[1], boks[2] - boks[0], boks[3] - boks[1]].map((v) => v.toFixed(1)).join(' ');
+  return lagSvg(`<g class="hode">${innhold}</g>`, vb, `figur figur-foto ${o.klasse || ''}`);
+}
+
+/* ---------- Dagens kostymer -------------------------------------------------
+   Hver dag får de to nye kostymer (aldri like), og hodene veksler mellom bildene. */
+
+function dagensKostyme(dag, hvem) {
+  const i = (dag * 4 + (hvem === 'hun' ? 5 : 0)) % DRAKTNAVN.length;
+  return DRAKTNAVN[i];
+}
+
+function dagensHatt(dag, hvem) {
+  const d = DRAKTER[dagensKostyme(dag, hvem)];
+  return d.hatt || 'nisselue';
+}
+
+function dagensVariant(dag, hvem) {
+  return ((dag + (hvem === 'hun' ? 1 : 0)) % 2) + 1;
+}
+
+function dagensFigur(dag, hvem, klasse = '') {
+  return figurDrakt({ hvem, variant: dagensVariant(dag, hvem), drakt: dagensKostyme(dag, hvem), klasse });
+}
+
+function snakkeboble(tekst, klasse = '') {
+  const el = document.createElement('div');
+  el.className = `snakkeboble ${klasse}`;
+  el.textContent = tekst;
+  return el;
+}
+
+/* Lykkehjul: felt med gevinst og morsomme nitter. Hjulet lander alltid på gevinst,
+   gjerne så vidt forbi en nitte. Vertskapet (dagens kostymer) jubler når det stopper. */
+SPILL.hjul = {
+  tittel: 'Lykkehjul',
+  tekst: 'Snurr hjulet! Trykk på knappen eller sveip over hjulet.',
+  start(ctx) {
+    const N = 10;
+    const SEG = 360 / N;
+    const R = 140;
+    const nitter = ['Ullsokker', 'Nesten!', 'Kull', 'Et eple', 'Grøt'];
+    const rad = (g) => (g * Math.PI) / 180;
+    let felt = '';
+    for (let i = 0; i < N; i++) {
+      const a0 = rad(i * SEG - 90);
+      const a1 = rad((i + 1) * SEG - 90);
+      const gevinst = i % 2 === 0;
+      const farge = gevinst ? FARGE.gull : (i % 4 === 1 ? FARGE.rod : FARGE.gronn);
+      const mid = i * SEG + SEG / 2;
+      felt += `<path d="M0 0 L${(R * Math.cos(a0)).toFixed(2)} ${(R * Math.sin(a0)).toFixed(2)} A${R} ${R} 0 0 1 ${(R * Math.cos(a1)).toFixed(2)} ${(R * Math.sin(a1)).toFixed(2)} Z" fill="${farge}" stroke="${FARGE.strek}" stroke-width="2.5"/>`;
+      if (gevinst) {
+        felt += `<g transform="rotate(${mid})"><text y="-108" class="hjul__tekst hjul__tekst--gevinst">Gevinst</text>
+          <g transform="translate(0 -80)"><rect x="-13" y="-9" width="26" height="20" rx="2" fill="${FARGE.rod}" stroke="${FARGE.strek}" stroke-width="2"/>
+          <rect x="-15" y="-14" width="30" height="7" rx="2" fill="${FARGE.rodMork}" stroke="${FARGE.strek}" stroke-width="2"/>
+          <rect x="-3" y="-14" width="6" height="25" fill="${FARGE.gull}" stroke="${FARGE.strek}" stroke-width="1.5"/>
+          <path d="M0 -14 C-8 -24 -16 -18 -8 -14 M0 -14 C8 -24 16 -18 8 -14" fill="none" stroke="${FARGE.strek}" stroke-width="2"/></g></g>`;
+      } else {
+        felt += `<g transform="rotate(${mid})"><text y="-98" class="hjul__tekst">${nitter[(i - 1) / 2]}</text></g>`;
+      }
+    }
+    let paerer = '';
+    for (let i = 0; i < N; i++) {
+      const a = rad(i * SEG - 90);
+      paerer += `<circle cx="${(147 * Math.cos(a)).toFixed(2)}" cy="${(147 * Math.sin(a)).toFixed(2)}" r="5" class="paere" />`;
+    }
+    const scene = ctx.scene;
+    const hjul = el('div', { class: 'hjul' });
+    hjul.innerHTML = `
+      <div class="hjul__ramme">
+        <svg class="hjul__skive" viewBox="-160 -160 320 320" aria-hidden="true">
+          <circle r="156" fill="${FARGE.strek}"/>
+          <circle r="152" fill="#3a2a1e"/>
+          <g class="hjul__felt">${felt}<path class="hjul__treff" d="" /></g>
+          ${paerer}
+        </svg>
+        <svg class="hjul__nav" viewBox="-40 -40 80 80" aria-hidden="true">
+          <circle r="30" fill="${FARGE.rod}" stroke="${FARGE.strek}" stroke-width="3"/>
+          <circle r="22" fill="none" stroke="${FARGE.gull}" stroke-width="3"/>
+          <path d="${stjernePath(0, 1, 15, 6.5)}" fill="${FARGE.gull}" stroke="${FARGE.strek}" stroke-width="2"/>
+        </svg>
+        <svg class="hjul__peker" viewBox="-22 -8 44 52" aria-hidden="true">
+          <path d="M-16 0 L16 0 L0 38 Z" fill="${FARGE.rod}" stroke="${FARGE.strek}" stroke-width="3" stroke-linejoin="round"/>
+          <circle cx="0" cy="4" r="6" fill="${FARGE.gull}" stroke="${FARGE.strek}" stroke-width="2.5"/>
+        </svg>
+      </div>`;
+    const vertV = dagensFigur(ctx.dag, 'han', 'vert vert--v');
+    const vertH = dagensFigur(ctx.dag, 'hun', 'vert vert--h');
+    hjul.append(vertV, vertH);
+    scene.append(hjul);
+
+    const felter = hjul.querySelector('.hjul__felt');
+    const skive = hjul.querySelector('.hjul__skive');
+    const peker = hjul.querySelector('.hjul__peker');
+    let rot = tilfeldig(0, 360);
+    felter.setAttribute('transform', `rotate(${rot.toFixed(2)})`);
+    let snurrer = false;
+    let stoppet = false;
+    let kickStart = 0;
+    const segUnder = (r) => Math.floor(((((-r) % 360) + 360) % 360) / SEG);
+
+    const knapp = ctx.knapp('Snurr hjulet', snurr);
+
+    function snurr() {
+      if (snurrer || stoppet) return;
+      snurrer = true;
+      knapp.disabled = true;
+      ctx.tekst('Det snurrer …');
+      vertV.classList.add('dupp');
+      vertH.classList.add('dupp');
+      const g = velg([0, 2, 4, 6, 8]);
+      const a = (g + 1) * SEG - tilfeldig(0.1, 0.3) * SEG; // lander så vidt inn i gevinstfeltet
+      const start = rot;
+      const min = start + 360 * (REDUSERT ? 1 : 5);
+      const mal = Math.ceil((min + a) / 360) * 360 - a;
+      let sist = segUnder(start);
+      animer(REDUSERT ? 1200 : 5400, (e) => {
+        rot = start + (mal - start) * e;
+        felter.setAttribute('transform', `rotate(${rot.toFixed(2)})`);
+        const s = segUnder(rot);
+        if (s !== sist) { sist = s; kickStart = performance.now(); Lyd.tikk(); }
+        const dt = performance.now() - kickStart;
+        peker.style.transform = `rotate(${(-20 * Math.exp(-dt / 70)).toFixed(2)}deg)`;
+      }, ease.utKvint).then(() => vant(g));
+    }
+
+    function vant(g) {
+      stoppet = true;
+      peker.style.transform = '';
+      const a0 = rad(g * SEG - 90);
+      const a1 = rad((g + 1) * SEG - 90);
+      const treff = hjul.querySelector('.hjul__treff');
+      treff.setAttribute('d', `M0 0 L${R * Math.cos(a0)} ${R * Math.sin(a0)} A${R} ${R} 0 0 1 ${R * Math.cos(a1)} ${R * Math.sin(a1)} Z`);
+      skive.classList.add('vunnet');
+      vertV.classList.remove('dupp');
+      vertH.classList.remove('dupp');
+      vertV.classList.add('jubel');
+      vertH.classList.add('jubel');
+      Lyd.pop();
+      vibrer([20, 30, 20]);
+      ctx.tekst('Gevinst!');
+      setTimeout(() => { if (ctx.aktiv()) ctx.vunnet(); }, REDUSERT ? 300 : 1400);
+    }
+
+    // Sveip over hjulet for å snurre
+    let sveip = null;
+    skive.addEventListener('pointerdown', (e) => { sveip = { x: e.clientX, y: e.clientY, t: performance.now() }; });
+    skive.addEventListener('pointerup', (e) => {
+      if (!sveip) return;
+      const d = Math.hypot(e.clientX - sveip.x, e.clientY - sveip.y);
+      if (d > 40 && performance.now() - sveip.t < 700) snurr();
+      sveip = null;
+    });
+    return { stopp() { stoppet = true; } };
+  },
+};
+
+/* Skrapelodd med symboler: tre like vinner. Blant symbolene er de to personene
+   med dagens luer. Én av dem titter over kanten og jubler når loddet vinner. */
+SPILL.skrapelodd = {
+  tittel: 'Skrapelodd',
+  tekst: 'Skrap fram tre like symboler med fingeren.',
+  start(ctx) {
+    const dag = ctx.dag;
+    const symboler = ['🎄', '⭐', '🔔', '🍪', '☃️', '🦌', '🎁', '🕯️'].map((t) => ({ id: t, lag: () => el('span', { class: 'symbol', text: t }) }));
+    ['han', 'hun'].forEach((hvem) => {
+      const hatt = dagensHatt(dag + 3, hvem);
+      symboler.push({ id: hvem, lag: () => figurHode({ hvem, variant: dagensVariant(dag, hvem), hatt, nese: hatt === 'gevir', tett: true, klasse: 'symbol symbol--ansikt' }) });
+    });
+    const ansikter = symboler.slice(-2);
+    const vinner = Math.random() < 0.5 ? velg(ansikter) : velg(symboler.slice(0, 8));
+    const andre = stokk(symboler.filter((s) => s !== vinner)).slice(0, 3);
+    const rekke = stokk([vinner, vinner, vinner, ...andre, ...andre]);
+
+    const titterHvem = dag % 2 ? 'hun' : 'han';
+    const titterHatt = dagensHatt(dag, titterHvem);
+    const titter = el('div', { class: 'lodd__titter' },
+      figurHode({ hvem: titterHvem, variant: dagensVariant(dag + 1, titterHvem), hatt: titterHatt, nese: titterHatt === 'gevir', fast: true }),
+      el('span', { class: 'vott vott--v' }), el('span', { class: 'vott vott--h' }));
+    const felter = rekke.map((s) => el('div', { class: 'felt' }, s.lag()));
+    const flate = el('div', { class: 'lodd__felt' }, ...felter);
+    const lerret = el('canvas', { class: 'lodd__belegg', 'aria-label': 'Skrapefelt' });
+    const omraade = el('div', { class: 'lodd__omraade' }, flate, lerret);
+    const kort = el('div', { class: 'lodd__kort' },
+      el('div', { class: 'lodd__topp' }, el('span', { class: 'lodd__navn', text: 'Julelodd' }), el('span', { class: 'lodd__regel', text: 'Tre like vinner' })),
+      omraade,
+      el('div', { class: 'lodd__bunn', text: `Trekning ${dag}. desember` }));
+    const lodd = el('div', { class: 'lodd' }, titter, kort);
+    ctx.scene.append(lodd);
+
+    const avdekket = new Set();
+    let ferdig = false;
+    let dpr = 1;
+    let W = 0;
+    let H = 0;
+    const g = lerret.getContext('2d', { willReadFrequently: true });
+
+    function tegnBelegg() {
+      const r = omraade.getBoundingClientRect();
+      dpr = Math.min(2, window.devicePixelRatio || 1);
+      W = Math.round(r.width * dpr);
+      H = Math.round(r.height * dpr);
+      lerret.width = W;
+      lerret.height = H;
+      const grad = g.createLinearGradient(0, 0, W, H);
+      grad.addColorStop(0, '#dfe3ec');
+      grad.addColorStop(0.45, '#a9b1c4');
+      grad.addColorStop(1, '#e8ebf2');
+      g.globalCompositeOperation = 'source-over';
+      g.fillStyle = grad;
+      g.fillRect(0, 0, W, H);
+      for (let i = 0; i < 420; i++) {
+        g.fillStyle = `rgba(255,255,255,${Math.random() * 0.55})`;
+        g.fillRect(Math.random() * W, Math.random() * H, 1.6 * dpr, 1.6 * dpr);
+      }
+      const cw = W / 3;
+      const ch = H / 3;
+      g.textAlign = 'center';
+      g.textBaseline = 'middle';
+      g.font = `${Math.round(ch * 0.3)}px serif`;
+      for (let i = 0; i < 9; i++) {
+        const cx = (i % 3) * cw + cw / 2;
+        const cy = Math.floor(i / 3) * ch + ch / 2;
+        g.fillStyle = 'rgba(80, 90, 120, .35)';
+        g.fillText('❄', cx, cy);
+        if (avdekket.has(i)) g.clearRect((i % 3) * cw, Math.floor(i / 3) * ch, cw, ch);
+      }
+      g.globalCompositeOperation = 'destination-out';
+      g.lineCap = 'round';
+      g.lineJoin = 'round';
+      g.lineWidth = Math.min(cw, ch) * 0.42;
+    }
+    requestAnimationFrame(tegnBelegg);
+
+    let forrige = null;
+    let sistSjekk = 0;
+    let sistLyd = 0;
+    const punkt = (e) => {
+      const r = lerret.getBoundingClientRect();
+      return { x: (e.clientX - r.left) * dpr, y: (e.clientY - r.top) * dpr };
+    };
+    lerret.addEventListener('pointerdown', (e) => {
+      if (ferdig) return;
+      lerret.setPointerCapture(e.pointerId);
+      forrige = punkt(e);
+      g.beginPath();
+      g.arc(forrige.x, forrige.y, g.lineWidth / 2, 0, Math.PI * 2);
+      g.fill();
+      Lyd.start();
+    });
+    lerret.addEventListener('pointermove', (e) => {
+      if (!forrige || ferdig) return;
+      const p = punkt(e);
+      g.beginPath();
+      g.moveTo(forrige.x, forrige.y);
+      g.lineTo(p.x, p.y);
+      g.stroke();
+      forrige = p;
+      const n = performance.now();
+      if (n - sistLyd > 90) { Lyd.skrap(); sistLyd = n; }
+      if (n - sistSjekk > 110) { sjekk(); sistSjekk = n; }
+    });
+    const slipp = () => { if (forrige) { forrige = null; sjekk(); } };
+    lerret.addEventListener('pointerup', slipp);
+    lerret.addEventListener('pointercancel', slipp);
+
+    function avdekk(i, stille = false) {
+      if (avdekket.has(i)) return;
+      avdekket.add(i);
+      const cw = W / 3;
+      const ch = H / 3;
+      g.save();
+      g.globalCompositeOperation = 'destination-out';
+      g.fillRect((i % 3) * cw - 1, Math.floor(i / 3) * ch - 1, cw + 2, ch + 2);
+      g.restore();
+      felter[i].classList.add('avdekket');
+      if (!stille) { Lyd.pop(); vibrer(10); }
+    }
+
+    function sjekk() {
+      if (ferdig || !W) return;
+      const data = g.getImageData(0, 0, W, H).data;
+      const cw = W / 3;
+      const ch = H / 3;
+      for (let i = 0; i < 9; i++) {
+        if (avdekket.has(i)) continue;
+        let tomme = 0;
+        let alle = 0;
+        for (let sy = 0; sy < 10; sy++) {
+          for (let sx = 0; sx < 10; sx++) {
+            const x = Math.floor((i % 3) * cw + cw * (0.12 + 0.76 * (sx / 9)));
+            const y = Math.floor(Math.floor(i / 3) * ch + ch * (0.12 + 0.76 * (sy / 9)));
+            alle++;
+            if (data[(y * W + x) * 4 + 3] < 60) tomme++;
+          }
+        }
+        if (tomme / alle > 0.45) avdekk(i);
+      }
+      const vinnere = rekke.map((s, i) => (s === vinner ? i : -1)).filter((i) => i >= 0);
+      if (vinnere.every((i) => avdekket.has(i))) seier(vinnere);
+    }
+
+    async function skrapAlt() {
+      if (ferdig) return;
+      alt.disabled = true;
+      for (let i = 0; i < 9; i++) {
+        if (ferdig) return;
+        if (!avdekket.has(i)) { avdekk(i); await vent(REDUSERT ? 0 : 140); }
+      }
+      sjekk();
+    }
+    const alt = ctx.knapp('Skrap alt', skrapAlt, true);
+
+    function seier(vinnere) {
+      if (ferdig) return;
+      ferdig = true;
+      alt.disabled = true;
+      for (let i = 0; i < 9; i++) avdekk(i, true);
+      felter.forEach((f, i) => f.classList.add(vinnere.includes(i) ? 'vinner' : 'dempet'));
+      titter.classList.add('jubel');
+      titter.append(snakkeboble('Tre like!', 'lodd__boble'));
+      Lyd.vinn();
+      vibrer([20, 40, 20]);
+      ctx.tekst('Tre like! Gevinst!');
+      setTimeout(() => { if (ctx.aktiv()) ctx.vunnet(); }, REDUSERT ? 300 : 1500);
+    }
+
+    // Tegn på nytt bare når bredden faktisk endres (ikke når adresselinja på mobil skjules)
+    let sistBredde = 0;
+    const vedEndring = () => {
+      const b = Math.round(omraade.getBoundingClientRect().width);
+      if (b && Math.abs(b - sistBredde) > 2) { sistBredde = b; requestAnimationFrame(tegnBelegg); }
+    };
+    requestAnimationFrame(() => { sistBredde = Math.round(omraade.getBoundingClientRect().width); });
+    window.addEventListener('resize', vedEndring);
+    return { stopp() { ferdig = true; window.removeEventListener('resize', vedEndring); } };
+  },
+};
+
+/* Enarmet banditt: tre hjul med julesymboler og de to personenes ansikter.
+   Hjulene stopper ett etter ett – det siste litt etter de andre – og det blir alltid tre like. */
+SPILL.banditt = {
+  tittel: 'Enarmet banditt',
+  tekst: 'Dra spaken ned, eller trykk på knappen.',
+  start(ctx) {
+    const dag = ctx.dag;
+    const emoji = ['🎄', '🔔', '⭐', '🍪', '🎁', '🦌'];
+    const symboler = emoji.map((t) => ({ id: t, lag: () => el('span', { class: 'symbol', text: t }) }));
+    ['han', 'hun'].forEach((hvem, i) => {
+      const hatt = dagensHatt(dag + 1 + i, hvem);
+      symboler.push({ id: hvem, lag: () => figurHode({ hvem, variant: dagensVariant(dag + i, hvem), hatt, nese: hatt === 'gevir', tett: true, klasse: 'symbol symbol--ansikt' }) });
+    });
+    const vinner = Math.random() < 0.55 ? velg(symboler.slice(-2)) : velg(symboler.slice(0, 6));
+    const RUNDER = 7;
+    const K = symboler.length;
+
+    const hjulRader = [0, 1, 2].map(() => {
+      const rekke = stokk(symboler);
+      const stripe = el('div', { class: 'stripe' });
+      for (let r = 0; r < RUNDER; r++) rekke.forEach((s) => stripe.append(el('div', { class: 'celle' }, s.lag())));
+      return { rekke, stripe, pos: Math.floor(Math.random() * K) + 1 };
+    });
+    const vindu = el('div', { class: 'banditt__vindu' },
+      ...hjulRader.map((h) => el('div', { class: 'valse' }, h.stripe)),
+      el('div', { class: 'banditt__linje' }));
+    const brett = el('div', { class: 'banditt__brett' });
+    const skap = el('div', { class: 'banditt__skap' },
+      el('div', { class: 'banditt__skilt' }, el('span', { text: 'Julebanditten' })),
+      vindu,
+      el('div', { class: 'banditt__panel' }, el('span', { class: 'lampe' }), el('span', { class: 'lampe' }), el('span', { class: 'lampe' })),
+      brett);
+    const kule = el('div', { class: 'spak__kule', role: 'button', 'aria-label': 'Spaken, dra den ned' });
+    const spak = el('div', { class: 'banditt__spak' }, el('div', { class: 'spak__fot' }), el('div', { class: 'spak__stang' }, kule));
+    const hvem = dag % 2 ? 'hun' : 'han';
+    const figur = dagensFigur(dag, hvem, 'banditt__figur');
+    const maskin = el('div', { class: 'banditt' }, figur, skap, spak);
+    ctx.scene.append(maskin);
+
+    let H = 0;
+    const settPos = (h) => { h.stripe.style.transform = `translateY(${(-(h.pos - 1) * H).toFixed(1)}px)`; };
+    requestAnimationFrame(() => {
+      H = vindu.querySelector('.celle').offsetHeight;
+      hjulRader.forEach(settPos);
+    });
+
+    let startet = false;
+    let stoppet = false;
+    const knapp = ctx.knapp('Dra i spaken', trekk);
+
+    async function trekk() {
+      if (startet || stoppet) return;
+      startet = true;
+      knapp.disabled = true;
+      Lyd.start();
+      ctx.tekst('Hjulene snurrer …');
+      spak.classList.add('dratt');
+      Lyd.klonk();
+      vibrer(15);
+      setTimeout(() => spak.classList.remove('dratt'), 450);
+      H = H || vindu.querySelector('.celle').offsetHeight;
+      const varigheter = REDUSERT ? [400, 600, 800] : [1500, 2300, 3700];
+      await Promise.all(hjulRader.map((h, i) => {
+        const indeks = h.rekke.indexOf(vinner);
+        const mal = (RUNDER - 2) * K + indeks;
+        const start = h.pos;
+        let sistP = start;
+        return animer(varigheter[i], (e) => {
+          h.pos = start + (mal - start) * e;
+          settPos(h);
+          const fart = Math.abs(h.pos - sistP);
+          h.stripe.classList.toggle('uskarp', fart > 0.18);
+          if (Math.floor(h.pos) !== Math.floor(sistP) && i === 2 && fart < 0.12) Lyd.tikk();
+          sistP = h.pos;
+        }, i === 2 ? ease.utKvint : ease.utKubisk).then(() => {
+          h.pos = mal;
+          settPos(h);
+          h.stripe.classList.remove('uskarp');
+          Lyd.klonk();
+          vibrer(12);
+        });
+      }));
+      if (stoppet) return;
+      seier();
+    }
+
+    function seier() {
+      stoppet = true;
+      vindu.classList.add('gevinst');
+      skap.classList.add('blinker');
+      ctx.tekst('Tre like! Gevinst!');
+      figur.classList.add('jubel');
+      for (let i = 0; i < 14; i++) {
+        const m = el('span', { class: 'mynt', style: { left: `${tilfeldig(18, 82)}%`, animationDelay: `${i * 70}ms` } });
+        brett.append(m);
+        Lyd.mynt(i * 0.07);
+      }
+      vibrer([20, 30, 20, 30, 20]);
+      setTimeout(() => { if (ctx.aktiv()) ctx.vunnet(); }, REDUSERT ? 300 : 1700);
+    }
+
+    // Dra spaken ned med fingeren
+    let dra = null;
+    kule.addEventListener('pointerdown', (e) => { if (startet) return; dra = e.clientY; kule.setPointerCapture(e.pointerId); });
+    kule.addEventListener('pointermove', (e) => {
+      if (dra === null) return;
+      const dy = begrens(e.clientY - dra, 0, 70);
+      spak.style.setProperty('--dra', `${dy}px`);
+      if (dy > 55) { dra = null; spak.style.removeProperty('--dra'); trekk(); }
+    });
+    const slipp = () => { dra = null; spak.style.removeProperty('--dra'); };
+    kule.addEventListener('pointerup', slipp);
+    kule.addEventListener('pointercancel', slipp);
+    kule.addEventListener('click', trekk);
+    return { stopp() { stoppet = true; } };
+  },
+};
+
+/* Velg en pakke: tre pakker blandes, og den du velger har alltid gevinsten.
+   Når lokket spretter av, hopper en av dem ut som en kasse-klovn med dagens lue. */
+SPILL.velgpakke = {
+  tittel: 'Velg en pakke',
+  tekst: 'Følg med når pakkene blandes, og velg én.',
+  start(ctx) {
+    const dag = ctx.dag;
+    const farger = [[FARGE.rod, FARGE.rodMork], [FARGE.gronn, FARGE.gronnMork], ['#3f4fb0', '#2b367e']];
+    const pakkeSvg = ([lys, mork]) => `<svg viewBox="0 0 120 140" aria-hidden="true">
+      <g class="pakke__kropp"><rect x="12" y="52" width="96" height="82" rx="6" fill="${lys}" stroke="${FARGE.strek}" stroke-width="3"/>
+      <rect x="52" y="52" width="16" height="82" fill="${FARGE.gull}" stroke="${FARGE.strek}" stroke-width="2.5"/>
+      <path d="M22 64 L30 58" stroke="rgba(255,255,255,.35)" stroke-width="4" stroke-linecap="round"/></g>
+      <g class="pakke__lokk"><rect x="6" y="36" width="108" height="22" rx="5" fill="${mork}" stroke="${FARGE.strek}" stroke-width="3"/>
+      <rect x="52" y="36" width="16" height="22" fill="${FARGE.gull}" stroke="${FARGE.strek}" stroke-width="2.5"/>
+      <path d="M60 36 C46 10 22 14 30 30 C34 38 50 38 60 36 Z M60 36 C74 10 98 14 90 30 C86 38 70 38 60 36 Z" fill="${FARGE.gull}" stroke="${FARGE.strek}" stroke-width="2.5" stroke-linejoin="round"/>
+      <circle cx="60" cy="35" r="6" fill="${FARGE.gullMork}" stroke="${FARGE.strek}" stroke-width="2.5"/></g></svg>`;
+    const pakker = farger.map((f, i) => el('button', { class: 'pakke', 'aria-label': `Pakke ${i + 1}`, html: pakkeSvg(f), disabled: true }));
+    const rad = el('div', { class: 'pakker' }, ...pakker);
+    ctx.scene.append(rad);
+
+    const plass = [0, 1, 2]; // plass[pakke] = posisjon
+    let steg = 0;
+    const plasser = (loft = []) => pakker.forEach((p, i) => {
+      p.style.transform = `translateX(${(plass[i] - 1) * steg}px) translateY(${loft[i] || 0}px)`;
+    });
+    requestAnimationFrame(() => { steg = rad.offsetWidth / 3; plasser(); });
+
+    let ferdig = false;
+    let blandet = false;
+    const knapp = ctx.knapp('Bland pakkene', bland);
+
+    async function bland() {
+      if (blandet) return;
+      blandet = true;
+      knapp.disabled = true;
+      Lyd.start();
+      ctx.tekst('Følg med …');
+      steg = rad.offsetWidth / 3;
+      const antall = REDUSERT ? 2 : 8;
+      for (let n = 0; n < antall; n++) {
+        if (ferdig) return;
+        const a = Math.floor(Math.random() * 3);
+        let b = Math.floor(Math.random() * 2);
+        if (b >= a) b++;
+        const fraA = plass[a];
+        const fraB = plass[b];
+        const varighet = Math.max(170, 330 - n * 22);
+        Lyd.tone(380 + n * 30, 0.06, 'triangle', 0.05);
+        await animer(varighet, (e) => {
+          plass[a] = fraA + (fraB - fraA) * e;
+          plass[b] = fraB + (fraA - fraB) * e;
+          const loft = [];
+          loft[a] = -26 * Math.sin(Math.PI * e);
+          loft[b] = 10 * Math.sin(Math.PI * e);
+          plasser(loft);
+        }, ease.innUt);
+        plass[a] = fraB;
+        plass[b] = fraA;
+        plasser();
+      }
+      ctx.tekst('Velg en pakke!');
+      knapp.remove();
+      pakker.forEach((p, i) => { p.disabled = false; p.addEventListener('click', () => velgPakke(i), { once: true }); });
+      pakker[plass.indexOf(1)].focus({ preventScroll: true });
+    }
+
+    async function velgPakke(i) {
+      if (ferdig) return;
+      ferdig = true;
+      pakker.forEach((p, j) => { p.disabled = true; if (j !== i) p.classList.add('bort'); });
+      const valgt = pakker[i];
+      valgt.classList.add('valgt');
+      const fra = plass[i];
+      await animer(380, (e) => { plass[i] = fra + (1 - fra) * e; plasser(); }, ease.utKubisk);
+      valgt.classList.add('rister');
+      Lyd.tone(220, 0.25, 'triangle', 0.08);
+      await vent(REDUSERT ? 50 : 700);
+      valgt.classList.remove('rister');
+      valgt.classList.add('apnet');
+      Lyd.pop();
+      // kasse-klovnen
+      const hvem = dag % 2 ? 'han' : 'hun';
+      const hatt = dagensHatt(dag, hvem);
+      const klovn = el('div', { class: 'klovn' },
+        el('div', { class: 'klovn__hode' }, figurHode({ hvem, variant: dagensVariant(dag, hvem), hatt, nese: hatt === 'gevir', fast: true })),
+        el('div', { class: 'klovn__fjaer', html: '<svg viewBox="0 0 30 100" preserveAspectRatio="none" aria-hidden="true"><path d="M15 100 L4 90 L26 80 L4 70 L26 60 L4 50 L26 40 L4 30 L26 20 L4 10 L15 0" fill="none" stroke="#c9ccd8" stroke-width="5" stroke-linejoin="round"/></svg>' }));
+      valgt.append(klovn);
+      Lyd.boing();
+      vibrer([15, 25, 15]);
+      setTimeout(() => klovn.append(snakkeboble('Overraskelse!', 'klovn__boble')), 380);
+      ctx.tekst('Gevinst i pakken!');
+      setTimeout(() => { if (ctx.aktiv()) ctx.vunnet(); }, REDUSERT ? 300 : 1700);
+    }
+    const vedEndring = () => { steg = rad.offsetWidth / 3; plasser(); };
+    window.addEventListener('resize', vedEndring);
+    return { stopp() { ferdig = true; window.removeEventListener('resize', vedEndring); } };
+  },
+};
+
+/* Plinko: en julekule (med et kjent ansikt) slippes gjennom pinnene og havner alltid
+   i et gevinstfelt. Den andre titter fram nede i hjørnet og jubler. */
+SPILL.plinko = {
+  tittel: 'Plinko',
+  tekst: 'Flytt kula dit du vil, og slipp den.',
+  start(ctx) {
+    const dag = ctx.dag;
+    const RADER = 8;
+    const X = (p) => 20 + p * 17.5; // p = 0 … 16 (halve feltbredder)
+    const Y = (r) => 96 + r * 36;
+    const KULE = 13;
+    const PINNE = 4;
+    const kuleHvem = dag % 2 ? 'han' : 'hun';
+    const annen = kuleHvem === 'han' ? 'hun' : 'han';
+
+    let pinner = '';
+    for (let r = 0; r < RADER; r++) {
+      for (let p = r % 2; p <= 16; p += 2) pinner += `<circle class="pinne" data-r="${r}" data-p="${p}" cx="${X(p)}" cy="${Y(r)}" r="${PINNE}"/>`;
+    }
+    let felt = '';
+    for (let k = 0; k < 9; k++) {
+      const x = X(2 * k) - 17.5;
+      const gevinst = k % 2 === 0;
+      felt += `<rect class="spor ${gevinst ? 'spor--gevinst' : ''}" data-k="${k}" x="${x + 1.5}" y="392" width="32" height="50" rx="4"/>`;
+      felt += gevinst
+        ? `<g transform="translate(${X(2 * k)} 424) scale(.62)"><rect x="-13" y="-9" width="26" height="20" rx="2" fill="${FARGE.rod}" stroke="${FARGE.strek}" stroke-width="2.4"/><rect x="-15" y="-15" width="30" height="7" rx="2" fill="${FARGE.rodMork}" stroke="${FARGE.strek}" stroke-width="2.4"/><rect x="-3" y="-15" width="6" height="26" fill="${FARGE.gull}" stroke="${FARGE.strek}" stroke-width="1.8"/></g>`
+        : `<text x="${X(2 * k)}" y="429" class="spor__nitte">–</text>`;
+    }
+    for (let k = 1; k < 9; k++) felt += `<rect x="${X(2 * k - 1) - 2}" y="384" width="4" height="60" rx="2" fill="#c7cdf2"/>`;
+
+    // kula: julekule med ansiktet innenfor
+    const fd = FIGURDATA[`${kuleHvem}-hode-2`].hoder[0];
+    const sk = 25 / fd.ansikt;
+    const bilde = `<image href="${BILDE(`${kuleHvem}-hode-2`)}" x="${(-fd.nese.x * sk).toFixed(2)}" y="${(-fd.nese.y * sk + 2).toFixed(2)}" width="${(FIGURDATA[`${kuleHvem}-hode-2`].w * sk).toFixed(2)}" height="${(FIGURDATA[`${kuleHvem}-hode-2`].h * sk).toFixed(2)}" clip-path="url(#plinko-klipp)"/>`;
+    const brett = el('div', { class: 'plinko' });
+    brett.innerHTML = `<svg class="plinko__brett" viewBox="0 0 320 452" aria-label="Plinko-brett">
+        <defs><clipPath id="plinko-klipp"><circle r="${KULE - 1.5}"/></clipPath>
+        <radialGradient id="plinko-kule" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="#ff6b6b"/><stop offset=".6" stop-color="${FARGE.rod}"/><stop offset="1" stop-color="#7a0f17"/></radialGradient></defs>
+        <rect x="2" y="2" width="316" height="448" rx="18" fill="${'#262c66'}" stroke="${FARGE.gull}" stroke-width="3"/>
+        <rect x="10" y="44" width="300" height="2" rx="1" fill="#3f478f"/>
+        ${pinner}${felt}
+        <g class="plinko__kule" transform="translate(${X(8)} 26)">
+          <circle r="${KULE + 1.5}" fill="url(#plinko-kule)" stroke="${FARGE.strek}" stroke-width="2.5"/>
+          ${bilde}
+          <circle r="${KULE - 1.5}" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="2"/>
+          <rect x="-5" y="${-KULE - 6}" width="10" height="6" rx="1.5" fill="${FARGE.gull}" stroke="${FARGE.strek}" stroke-width="2"/>
+          <path d="M0 ${-KULE - 6} q-5 -7 0 -9 q5 2 0 9" fill="none" stroke="${FARGE.gullMork}" stroke-width="2"/>
+        </g>
+      </svg>`;
+    const hatt = dagensHatt(dag, annen);
+    const titter = el('div', { class: 'plinko__titter' }, figurHode({ hvem: annen, variant: dagensVariant(dag, annen), hatt, nese: hatt === 'gevir', fast: true }));
+    brett.append(titter);
+    ctx.scene.append(brett);
+
+    const svg = brett.querySelector('svg');
+    const kule = svg.querySelector('.plinko__kule');
+    let p0 = 8;
+    let slippet = false;
+    let stoppet = false;
+    const settKule = (x, y) => kule.setAttribute('transform', `translate(${x.toFixed(2)} ${y.toFixed(2)})`);
+
+    // flytt kula langs toppen
+    const tilP = (e) => {
+      const r = svg.getBoundingClientRect();
+      const x = ((e.clientX - r.left) / r.width) * 320;
+      return begrens(Math.round((x - 20) / 17.5 / 2) * 2, 2, 14);
+    };
+    let drar = false;
+    svg.addEventListener('pointerdown', (e) => {
+      if (slippet) return;
+      const r = svg.getBoundingClientRect();
+      if ((e.clientY - r.top) / r.height * 452 > 90) return;
+      drar = true;
+      svg.setPointerCapture(e.pointerId);
+      p0 = tilP(e);
+      settKule(X(p0), 26);
+    });
+    svg.addEventListener('pointermove', (e) => {
+      if (!drar || slippet) return;
+      const p = tilP(e);
+      if (p !== p0) { p0 = p; settKule(X(p0), 26); Lyd.tikk(); }
+    });
+    const slipp = () => { drar = false; };
+    svg.addEventListener('pointerup', slipp);
+    svg.addEventListener('pointercancel', slipp);
+
+    const venstre = ctx.knapp('◀', () => { if (!slippet && p0 > 2) { p0 -= 2; settKule(X(p0), 26); Lyd.tikk(); } }, true);
+    const knapp = ctx.knapp('Slipp kula', slippKula);
+    const hoyre = ctx.knapp('▶', () => { if (!slippet && p0 < 14) { p0 += 2; settKule(X(p0), 26); Lyd.tikk(); } }, true);
+    venstre.setAttribute('aria-label', 'Flytt kula til venstre');
+    hoyre.setAttribute('aria-label', 'Flytt kula til høyre');
+
+    function lagBane() {
+      const mulige = [0, 4, 8, 12, 16].filter((m) => Math.abs(m - p0) <= RADER);
+      for (let forsok = 0; forsok < 400; forsok++) {
+        const mal = velg(mulige);
+        const hoyreSteg = (RADER + (mal - p0)) / 2;
+        const steg = stokk([...Array(hoyreSteg).fill(1), ...Array(RADER - hoyreSteg).fill(-1)]);
+        const bane = [p0];
+        let ok = true;
+        for (const s of steg) {
+          const n = bane[bane.length - 1] + s;
+          if (n < 0 || n > 16) { ok = false; break; }
+          bane.push(n);
+        }
+        if (ok) return bane;
+      }
+      return null;
+    }
+
+    async function slippKula() {
+      if (slippet) return;
+      slippet = true;
+      [venstre, knapp, hoyre].forEach((b) => { b.disabled = true; });
+      Lyd.start();
+      ctx.tekst('Der går den …');
+      const bane = lagBane() || [8, 7, 8, 7, 8, 7, 8, 7, 8];
+      const fart = REDUSERT ? 0.35 : 1;
+      // fritt fall til første pinne
+      const y0 = Y(0) - PINNE - KULE;
+      await animer(300 * fart, (e) => settKule(X(bane[0]), 26 + (y0 - 26) * e), (t) => t * t);
+      for (let r = 0; r < RADER; r++) {
+        if (stoppet) return;
+        const pinne = svg.querySelector(`.pinne[data-r="${r}"][data-p="${bane[r]}"]`);
+        if (pinne) { pinne.classList.remove('truffet'); void pinne.getBBox(); pinne.classList.add('truffet'); }
+        Lyd.tikk();
+        vibrer(5);
+        const xa = X(bane[r]);
+        const xb = X(bane[r + 1]);
+        const ya = Y(r) - PINNE - KULE;
+        const yb = r + 1 < RADER ? Y(r + 1) - PINNE - KULE : 412;
+        await animer((r + 1 < RADER ? 175 : 320) * Math.pow(0.97, r) * fart, (e) => {
+          const bue = r + 1 < RADER ? 15 : 8;
+          settKule(xa + (xb - xa) * e, ya + (yb - ya) * e * e - bue * 4 * e * (1 - e));
+        });
+      }
+      if (stoppet) return;
+      const k = bane[RADER] / 2;
+      Lyd.klonk();
+      await animer(220, (e) => settKule(X(bane[RADER]), 412 + 6 * Math.sin(Math.PI * e)));
+      svg.querySelector(`.spor[data-k="${k}"]`).classList.add('lyser');
+      titter.classList.add('jubel');
+      titter.append(snakkeboble('Gevinst!', 'plinko__boble snakkeboble--hoyre'));
+      Lyd.pop();
+      vibrer([20, 30, 20]);
+      ctx.tekst('Rett i gevinstfeltet!');
+      setTimeout(() => { if (ctx.aktiv()) ctx.vunnet(); }, REDUSERT ? 300 : 1400);
+    }
+    return { stopp() { stoppet = true; } };
+  },
+};
+
+/* Reinsdyrløp: fire reinsdyr med ryttere (de to i dagens kostymer og to fjøsnisser).
+   Reinsdyret du velger, vinner alltid – gjerne med et nesehår. */
+const REIN_BEN = (x, klasse) => `<g class="ben ${klasse}" style="transform-origin:${x}px 60px">
+  <path d="M${x - 4} 58 L${x - 5} 82 L${x + 4} 82 L${x + 5} 58 Z" fill="${FARGE.brun}" stroke="${FARGE.strek}" stroke-width="2.4" stroke-linejoin="round"/>
+  <rect x="${x - 6}" y="80" width="12" height="6" rx="2" fill="${FARGE.brunMork}" stroke="${FARGE.strek}" stroke-width="2"/></g>`;
+
+function reinsdyrSvg() {
+  const gevir = 'M95 12 C92 0 88 -8 80 -14 M89 -3 C82 -2 77 -6 74 -10 M97 10 C100 -2 106 -8 112 -12 M104 -4 C110 -2 114 -6 116 -10';
+  return `<svg class="rein" viewBox="0 -18 124 108" aria-hidden="true" overflow="visible">
+    ${REIN_BEN(36, 'ben-b2')}${REIN_BEN(80, 'ben-f2')}
+    <path d="M22 44 C14 38 12 30 18 28 C24 30 26 36 26 42 Z" fill="${FARGE.brunLys}" stroke="${FARGE.strek}" stroke-width="2.4"/>
+    <ellipse cx="58" cy="50" rx="36" ry="18" fill="${FARGE.brun}" stroke="${FARGE.strek}" stroke-width="2.8"/>
+    <ellipse cx="60" cy="58" rx="22" ry="7" fill="${FARGE.brunLys}"/>
+    <path d="M82 46 L90 18 L102 22 L94 50 Z" fill="${FARGE.brun}" stroke="${FARGE.strek}" stroke-width="2.6" stroke-linejoin="round"/>
+    ${dobbelStrek(gevir, '#a8743c', 4)}
+    <ellipse cx="102" cy="22" rx="15" ry="10" fill="${FARGE.brun}" stroke="${FARGE.strek}" stroke-width="2.6"/>
+    <ellipse cx="91" cy="13" rx="6" ry="3.5" transform="rotate(-30 91 13)" fill="${FARGE.brunLys}" stroke="${FARGE.strek}" stroke-width="2"/>
+    <circle cx="116" cy="24" r="4" fill="${FARGE.svart}"/>
+    <circle cx="103" cy="18" r="2.4" fill="${FARGE.svart}"/>
+    <path d="M70 34 Q80 30 86 36" fill="none" stroke="${FARGE.rod}" stroke-width="5" stroke-linecap="round"/>
+    ${REIN_BEN(42, 'ben-b1')}${REIN_BEN(86, 'ben-f1')}
+  </svg>`;
+}
+
+function fjosnisseSvg(lue) {
+  return lagSvg(`<g class="kropp"><path d="${TORSO}" fill="#8a8d96" ${STREK}/></g>
+    <g class="arm arm-v">${arm('#8a8d96', FARGE.rod)}</g><g class="arm arm-h"><g transform="translate(200 0) scale(-1 1)">${arm('#8a8d96', FARGE.rod)}</g></g>
+    <g class="hode"><path d="M50 98 C48 150 74 198 100 204 C126 198 152 150 150 98 Z" fill="#ffffff" ${STREK}/>
+    <rect x="58" y="84" width="84" height="26" rx="12" fill="${FARGE.hud}" ${STREK}/>
+    <circle cx="100" cy="104" r="16" fill="#f0988a" ${STREK}/>
+    <path d="M42 96 C46 38 78 -12 132 -34 C122 8 152 58 158 96 C120 104 80 104 42 96 Z" fill="${lue}" ${STREK}/>
+    <path d="M60 80 C70 40 92 10 118 -10" fill="none" stroke="rgba(255,255,255,.25)" stroke-width="7" stroke-linecap="round"/></g>`,
+  '0 -70 200 378', 'figur figur-drakt');
+}
+
+SPILL.reinsdyr = {
+  tittel: 'Reinsdyrløp',
+  tekst: 'Velg reinsdyret ditt, og start løpet.',
+  start(ctx) {
+    const dag = ctx.dag;
+    const deltakere = [
+      { navn: 'Lynet', rytter: () => dagensFigur(dag, 'han') },
+      { navn: 'Komet', rytter: () => dagensFigur(dag, 'hun') },
+      { navn: 'Snøball', rytter: () => fjosnisseSvg(FARGE.rod) },
+      { navn: 'Pepper', rytter: () => fjosnisseSvg('#6b6f7a') },
+    ];
+    const rekkefolge = stokk([0, 1, 2, 3]);
+    const bane = el('div', { class: 'lop__bane' }, el('div', { class: 'lop__mal', 'aria-hidden': 'true' }));
+    const spor = rekkefolge.map((i, plass) => {
+      const d = deltakere[i];
+      const rytter = d.rytter();
+      rytter.classList.add('rytter');
+      const ekvipasje = el('div', { class: 'ekvipasje' }, rytter, el('div', { class: 'rein-holder', html: reinsdyrSvg() }));
+      const knapp = el('button', { class: 'spor', 'aria-pressed': 'false', 'aria-label': `Velg ${d.navn}` },
+        el('span', { class: 'spor__navn' }, el('b', { text: String(plass + 1) }), ' ', d.navn), ekvipasje);
+      bane.append(knapp);
+      return { ...d, knapp, ekvipasje, rytter, x: 0 };
+    });
+    const nedtelling = el('div', { class: 'lop__nedtelling', 'aria-live': 'assertive' });
+    const blits = el('div', { class: 'lop__blits' });
+    const lop = el('div', { class: 'lop' }, bane, nedtelling, blits);
+    ctx.scene.append(lop);
+
+    let valgt = -1;
+    let startet = false;
+    let stoppet = false;
+    const knapp = ctx.knapp('Start løpet', startLop);
+    knapp.disabled = true;
+    spor.forEach((s, i) => s.knapp.addEventListener('click', () => {
+      if (startet) return;
+      valgt = i;
+      spor.forEach((t, j) => { t.knapp.classList.toggle('valgt', j === i); t.knapp.setAttribute('aria-pressed', j === i ? 'true' : 'false'); });
+      knapp.disabled = false;
+      ctx.tekst(`Du har valgt ${s.navn}. Klar?`);
+      Lyd.tikk();
+    }));
+
+    function fartsprofil(sterkSlutt) {
+      const v = Array.from({ length: 7 }, (_, k) => (sterkSlutt ? 0.8 + k * 0.07 : 1) * tilfeldig(0.78, 1.22));
+      const N = 200;
+      const P = [0];
+      for (let n = 1; n <= N; n++) {
+        const u = n / N;
+        const f = u * (v.length - 1);
+        const k = Math.min(v.length - 2, Math.floor(f));
+        const t = (1 - Math.cos((f - k) * Math.PI)) / 2;
+        P.push(P[n - 1] + v[k] * (1 - t) + v[k + 1] * t);
+      }
+      return P.map((p) => p / P[N]);
+    }
+    const hentP = (P, u) => {
+      if (u >= 1) return 1;
+      const f = u * (P.length - 1);
+      const k = Math.floor(f);
+      return P[k] + (P[k + 1] - P[k]) * (f - k);
+    };
+
+    async function startLop() {
+      if (startet || valgt < 0) return;
+      startet = true;
+      knapp.disabled = true;
+      Lyd.start();
+      ctx.tekst('Gjør dere klare …');
+      for (const t of ['3', '2', '1', 'Kjør!']) {
+        nedtelling.textContent = t;
+        nedtelling.classList.remove('vis');
+        void nedtelling.offsetWidth;
+        nedtelling.classList.add('vis');
+        Lyd.tone(t === 'Kjør!' ? 880 : 520, 0.16, 'square', 0.06);
+        await vent(REDUSERT ? 120 : 620);
+        if (stoppet) return;
+      }
+      nedtelling.textContent = '';
+      ctx.tekst('Løpet er i gang!');
+      lop.classList.add('i-gang');
+      const varighet = REDUSERT ? 1.8 : 6.4;
+      const tider = spor.map(() => varighet + tilfeldig(0, 0.7));
+      const profiler = spor.map(() => fartsprofil(false));
+      const andre = tider.filter((_, i) => i !== valgt);
+      tider[valgt] = Math.min(...andre) - 0.07;
+      // Den valgte skal ikke lede halvveis – spenningen skal vare
+      for (let forsok = 0; forsok < 60; forsok++) {
+        const p = fartsprofil(true);
+        const midt = hentP(p, (varighet / 2) / tider[valgt]);
+        const best = Math.max(...spor.map((_, i) => (i === valgt ? 0 : hentP(profiler[i], (varighet / 2) / tider[i]))));
+        profiler[valgt] = p;
+        if (midt < best) break;
+      }
+      const sporBredde = bane.clientWidth;
+      const ekvB = spor[0].ekvipasje.offsetWidth;
+      const malX = sporBredde - 26 - ekvB;
+      const t0 = performance.now();
+      let malfoto = false;
+      await new Promise((ferdig) => {
+        function ramme(n) {
+          if (stoppet) { ferdig(); return; }
+          const t = (n - t0) / 1000;
+          spor.forEach((s, i) => {
+            const u = t / tider[i];
+            const p = u < 1 ? hentP(profiler[i], u) : 1 + Math.min(0.08, (t - tider[i]) * 0.06);
+            s.ekvipasje.style.transform = `translateX(${(p * malX).toFixed(1)}px)`;
+          });
+          if (!malfoto && t >= tider[valgt]) {
+            malfoto = true;
+            blits.classList.add('blink');
+            Lyd.stoy(0.12, 0.2, 5000);
+          }
+          if (t < Math.max(...tider) + 0.5) requestAnimationFrame(ramme); else ferdig();
+        }
+        requestAnimationFrame(ramme);
+      });
+      if (stoppet) return;
+      lop.classList.remove('i-gang');
+      const vinner = spor[valgt];
+      vinner.knapp.classList.add('vinner');
+      vinner.rytter.classList.add('jubel');
+      vinner.knapp.append(el('span', { class: 'malfoto', text: 'Målfoto' }));
+      ctx.tekst(`${vinner.navn} vant med et nesehår!`);
+      Lyd.pop();
+      vibrer([20, 30, 20]);
+      setTimeout(() => { if (ctx.aktiv()) ctx.vunnet(); }, REDUSERT ? 300 : 1500);
+    }
+    return { stopp() { stoppet = true; } };
+  },
+};
+
+/* Memory: finn seks par. Fire av parene er de to personene med ulik hodepynt. */
+SPILL.memory = {
+  tittel: 'Memory',
+  tekst: 'Snu to og to kort, og finn alle parene.',
+  start(ctx) {
+    const dag = ctx.dag;
+    const hatter = Object.keys(HATTER);
+    const h = (k) => hatter[(dag * 3 + k * 2) % hatter.length];
+    const motiver = [
+      { id: 'a', lag: () => figurHode({ hvem: 'han', variant: 2, hatt: h(0), nese: h(0) === 'gevir', tett: true }) },
+      { id: 'b', lag: () => figurHode({ hvem: 'hun', variant: 2, hatt: h(1), nese: h(1) === 'gevir', tett: true }) },
+      { id: 'c', lag: () => figurHode({ hvem: 'han', variant: 1, hatt: h(2), nese: h(2) === 'gevir', tett: true }) },
+      { id: 'd', lag: () => figurHode({ hvem: 'hun', variant: 1, hatt: h(3), nese: h(3) === 'gevir', tett: true }) },
+      { id: 'e', lag: () => el('span', { class: 'symbol', text: '🎄' }) },
+      { id: 'f', lag: () => el('span', { class: 'symbol', text: '⭐' }) },
+    ];
+    const kortstokk = stokk([...motiver, ...motiver]);
+    let forsok = 0;
+    let apne = [];
+    let funnet = 0;
+    let laast = false;
+    let stoppet = false;
+    const kort = kortstokk.map((m, i) => {
+      const k = el('button', { class: 'kort', 'aria-label': `Kort ${i + 1}` },
+        el('span', { class: 'kort__inner' }, el('span', { class: 'kort__bak' }), el('span', { class: 'kort__forside' }, m.lag())));
+      k.addEventListener('click', () => snu(i));
+      return { m, el: k, funnet: false };
+    });
+    ctx.scene.append(el('div', { class: 'memory' }, ...kort.map((k) => k.el)));
+
+    function snu(i) {
+      const k = kort[i];
+      if (laast || stoppet || k.funnet || apne.includes(i)) return;
+      Lyd.start();
+      Lyd.tone(660, 0.05, 'triangle', 0.05);
+      k.el.classList.add('snudd');
+      apne.push(i);
+      if (apne.length < 2) return;
+      forsok++;
+      const [a, b] = apne.map((j) => kort[j]);
+      if (a.m.id === b.m.id) {
+        a.funnet = b.funnet = true;
+        setTimeout(() => { a.el.classList.add('funnet'); b.el.classList.add('funnet'); Lyd.pop(); vibrer(12); }, 250);
+        apne = [];
+        funnet++;
+        ctx.tekst(`Par! ${funnet} av 6 funnet.`);
+        if (funnet === 6) ferdig();
+      } else {
+        laast = true;
+        ctx.tekst(`Ikke likt. Forsøk nr. ${forsok}.`);
+        setTimeout(() => {
+          a.el.classList.remove('snudd');
+          b.el.classList.remove('snudd');
+          apne = [];
+          laast = false;
+        }, REDUSERT ? 300 : 850);
+      }
+    }
+
+    function ferdig() {
+      stoppet = true;
+      ctx.tekst(`Alle parene på ${forsok} forsøk!`);
+      kort.forEach((k, i) => setTimeout(() => k.el.classList.add('bolge'), i * 60));
+      setTimeout(() => { if (ctx.aktiv()) ctx.vunnet(); }, REDUSERT ? 300 : 1500);
+    }
+    return { stopp() { stoppet = true; } };
+  },
+};
+
+/* Pakkeåpning på julaften: riv av gavepapiret. Når pakken åpnes,
+   spretter begge opp i julestas – han som julenisse, hun som engel – med «God jul!». */
+SPILL.pakkeapning = {
+  tittel: 'Pakkeåpning',
+  tekst: 'Riv av gavepapiret med fingeren.',
+  start(ctx) {
+    const RAD = 4;
+    const biter = [];
+    const papir = el('div', { class: 'papir' });
+    for (let r = 0; r < RAD; r++) {
+      for (let c = 0; c < RAD; c++) {
+        const b = el('span', { class: 'bit' });
+        papir.append(b);
+        biter.push({ el: b, r, c, revet: false });
+      }
+    }
+    const sloyfe = el('div', { class: 'storsloyfe', html: `<svg viewBox="-60 -50 120 70" aria-hidden="true">${HATTER.sloyfe.svg}</svg>` });
+    const indre = el('div', { class: 'indre' }, el('div', { class: 'indre__kropp' }), el('div', { class: 'indre__lokk' }));
+    const utspring = el('div', { class: 'utspring' });
+    const gave = el('div', { class: 'storgave' }, indre, utspring, papir,
+      el('div', { class: 'band band--v' }), el('div', { class: 'band band--h' }), sloyfe);
+    ctx.scene.append(gave);
+
+    let revet = 0;
+    let ferdig = false;
+    let stoppet = false;
+
+    function riv(b, stille = false) {
+      if (b.revet) return;
+      b.revet = true;
+      revet++;
+      const dx = (b.c - 1.5) * tilfeldig(60, 120);
+      const dy = (b.r - 1.5) * tilfeldig(40, 100) - tilfeldig(40, 120);
+      b.el.style.setProperty('--dx', `${dx}px`);
+      b.el.style.setProperty('--dy', `${dy}px`);
+      b.el.style.setProperty('--rot', `${tilfeldig(-80, 80)}deg`);
+      b.el.classList.add('revet');
+      if (!stille) { Lyd.riv(); vibrer(8); }
+      if (revet === 5) { gave.classList.add('band-borte'); Lyd.pop(); }
+      if (revet >= 11 && !ferdig) aapne();
+    }
+
+    const bitVed = (e) => {
+      const r = papir.getBoundingClientRect();
+      const c = Math.floor(((e.clientX - r.left) / r.width) * RAD);
+      const rr = Math.floor(((e.clientY - r.top) / r.height) * RAD);
+      if (c < 0 || rr < 0 || c >= RAD || rr >= RAD) return null;
+      return biter[rr * RAD + c];
+    };
+    let drar = false;
+    gave.addEventListener('pointerdown', (e) => {
+      if (ferdig) return;
+      drar = true;
+      gave.setPointerCapture(e.pointerId);
+      Lyd.start();
+      const b = bitVed(e);
+      if (b) riv(b);
+    });
+    gave.addEventListener('pointermove', (e) => {
+      if (!drar || ferdig) return;
+      const b = bitVed(e);
+      if (b) riv(b);
+    });
+    const slipp = () => { drar = false; };
+    gave.addEventListener('pointerup', slipp);
+    gave.addEventListener('pointercancel', slipp);
+
+    const knapp = ctx.knapp('Riv alt', async () => {
+      knapp.disabled = true;
+      for (const b of stokk(biter)) {
+        if (ferdig || stoppet) break;
+        riv(b);
+        await vent(REDUSERT ? 0 : 90);
+      }
+    }, true);
+
+    async function aapne() {
+      ferdig = true;
+      knapp.disabled = true;
+      gave.classList.add('band-borte');
+      for (const b of biter) { if (!b.revet) { riv(b, true); await vent(REDUSERT ? 0 : 50); } }
+      ctx.tekst('Hva er det i pakken?');
+      await vent(REDUSERT ? 50 : 650);
+      if (stoppet) return;
+      gave.classList.add('apnet');
+      Lyd.pop();
+      const han = figurDrakt({ hvem: 'han', variant: 2, drakt: 'nisse', klasse: 'spretter spretter--v' });
+      const hun = figurDrakt({ hvem: 'hun', variant: 2, drakt: 'engel', klasse: 'spretter spretter--h' });
+      const banner = el('div', { class: 'julebanner', text: 'God jul!' });
+      utspring.append(han, hun);
+      gave.append(banner);
+      Lyd.boing();
+      vibrer([20, 40, 20]);
+      await vent(REDUSERT ? 50 : 700);
+      han.classList.add('jubel');
+      hun.classList.add('jubel');
+      ctx.tekst('God jul!');
+      setTimeout(() => { if (ctx.aktiv()) ctx.vunnet(); }, REDUSERT ? 300 : 1900);
+    }
+    return { stopp() { stoppet = true; ferdig = true; } };
+  },
+};
+
+/* ==========================================================================
+   Appen: kalender, spillskjerm, gevinstbillett og beskjeder.
+   ========================================================================== */
+
+// Lukenes plassering i et 5 × 5-rutenett (24 er dobbelt så bred), som på en ekte julekalender
+const REKKEFOLGE = [13, 4, 22, 9, 17, 1, 11, 6, 19, 2, 15, 8, 21, 14, 3, 20, 10, 5, 18, 23, 7, 24, 16, 12];
+const DORFARGER = ['rod', 'gran', 'natt'];
+
+const IKON = {
+  tilbake: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+  lydPa: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M15.5 9a4 4 0 010 6M18 6.5a7.5 7.5 0 010 11" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+  lydAv: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" fill="currentColor"/><path d="M16 9.5l5 5M21 9.5l-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+};
+
+function hentNokkel() {
+  if (DEMO) return 'demo';
+  const k = new URLSearchParams(location.search).get('k');
+  if (k) { Lager.sett('julekalender.k', k); return k; }
+  return Lager.hent('julekalender.k', null);
+}
+
+const App = {
+  nokkel: null,
+  status: null,
+  rot: null,
+  spill: null,
+  avslorer: false,
+  harHistorikk: false,
+  beskjedTimer: null,
+
+  async start() {
+    this.rot = document.getElementById('app');
+    window.addEventListener('popstate', () => {
+      this.harHistorikk = false;
+      if (this.spill && !this.avslorer) this.lukkSpill();
+    });
+    this.nokkel = hentNokkel();
+    if (!this.nokkel) {
+      this.visFeil(new ApiFeil('Kalenderen trenger din personlige lenke. Åpne lenken du fikk tilsendt.', 'MANGLER'));
+      return;
+    }
+    this.visLaster();
+    try {
+      this.status = await Api.status(this.nokkel);
+    } catch (e) {
+      this.visFeil(e);
+      return;
+    }
+    this.visKalender(true);
+    const apne = parseInt(new URLSearchParams(location.search).get('apne'), 10);
+    if (apne >= 1 && apne <= ANTALL && (DEMO || this.status.isTest)) this.trykkLuke(apne);
+  },
+
+  /** Hvilken dag figurenes kostymer skal hentes fra. */
+  visningsdag() {
+    const s = this.status;
+    if (s && !s.isTest && s.openDay) return s.openDay;
+    const d = new Date();
+    return d.getMonth() === 11 ? Math.min(ANTALL, d.getDate()) : ((d.getDate() - 1) % ANTALL) + 1;
+  },
+
+  visLaster() {
+    this.rot.replaceChildren(el('div', { class: 'senter', role: 'status' },
+      el('div', { class: 'lasteprikker', 'aria-hidden': 'true' }, el('i'), el('i'), el('i')),
+      el('p', { text: 'Henter kalenderen …' })));
+  },
+
+  visFeil(e) {
+    const tittel = { MANGLER: 'Mangler personlig lenke', UKJENT: 'Fant ikke lenken din', NETT: 'Ingen kontakt' }[e.kode] || 'Noe gikk galt';
+    let figur = null;
+    try { figur = figurFoto({ bilde: 'hun-armer', hatter: ['nisselue'] }); } catch (err) { figur = null; }
+    const knapper = (e.kode === 'NETT' || e.kode === 'FEIL') ? el('button', { class: 'knapp', text: 'Prøv igjen', onclick: () => this.start() }) : null;
+    this.rot.replaceChildren(el('div', { class: 'senter' }, figur, el('h1', { text: tittel }), el('p', { text: e.message }), knapper));
+  },
+
+  /* ---------- Kalenderen ------------------------------------------------ */
+
+  meldingstekst() {
+    const s = this.status;
+    if (s.closed) return 'Kalenderen er stengt for i år. Takk for i år!';
+    if (s.beforeStart) {
+      const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s.now || '');
+      if (m) {
+        const dager = Math.round((Date.UTC(s.year, 11, 1) - Date.UTC(+m[1], +m[2] - 1, +m[3])) / 86400000);
+        if (dager > 1) return `Første luke åpner 1. desember, om ${dager} dager.`;
+        if (dager === 1) return 'Første luke åpner i morgen!';
+      }
+      return 'Første luke åpner 1. desember.';
+    }
+    if (s.isTest) return s.demo ? 'Alle lukene er åpne i demoen.' : 'Alle lukene er åpne for testing.';
+    const tilGode = s.days.filter((d) => d.day < s.openDay && !d.opened).length;
+    const idag = s.days[s.openDay - 1];
+    if (idag && !idag.opened) {
+      return tilGode ? `Dagens luke venter, og du har ${tilGode} ${tilGode === 1 ? 'luke' : 'luker'} til gode.` : 'Dagens luke venter på deg.';
+    }
+    if (tilGode) return `Du har ${tilGode} ${tilGode === 1 ? 'luke' : 'luker'} til gode.`;
+    if (s.openDay >= ANTALL) return 'Alle lukene er åpnet. God jul!';
+    return 'Dagens luke er åpnet. Ny luke i morgen!';
+  },
+
+  visKalender(forste = false) {
+    const s = this.status;
+    const dag = this.visningsdag();
+    const hattHan = dagensHatt(dag, 'han');
+    const hattHun = dagensHatt(dag, 'hun');
+    const side = el('div', { class: `kalender${forste ? ' titt-inn' : ''}` });
+
+    const bytt = (hash) => { try { location.hash = hash; location.reload(); } catch (e) { /* ignoreres */ } };
+    if (s.demo && s.isTest) {
+      side.append(el('div', { class: 'banner' },
+        el('span', { text: 'Demo: alle lukene er åpne, og trekningene lagres bare på denne enheten.' }),
+        el('span', { class: 'banner__knapper' },
+          el('button', { class: 'knapp knapp--liten', text: 'Se som deltaker', onclick: () => bytt('dag-9') }),
+          el('button', { class: 'knapp knapp--liten', text: 'Nullstill alle', onclick: () => this.nullstill() }))));
+    } else if (s.demo) {
+      side.append(el('div', { class: 'banner' },
+        el('span', { text: `Demo: slik ser det ut for en deltaker ${s.openDay}. desember.` }),
+        el('button', { class: 'knapp knapp--liten', text: 'Tilbake', onclick: () => bytt('') })));
+    } else if (s.isTest) {
+      side.append(el('div', { class: 'banner' },
+        el('span', { text: 'Testbruker: alle luker er åpne, og ingenting blir utbetalt.' }),
+        el('button', { class: 'knapp knapp--liten', text: 'Nullstill alle', onclick: () => this.nullstill() })));
+    }
+
+    const hoder = el('div', { class: 'skilt__hoder' },
+      figurHode({ hvem: 'han', variant: 2, hatt: hattHan, nese: hattHan === 'gevir', fast: true }),
+      figurHode({ hvem: 'hun', variant: 2, hatt: hattHun, nese: hattHun === 'gevir', fast: true }));
+    side.append(el('header', { class: 'skilt' }, hoder, el('div', { class: 'skilt__tavle' }, el('h1', { text: 'Julekalenderen' }))));
+
+    const hilsen = el('p', { class: 'hilsen' }, 'Hei, ', el('strong', { text: s.name }), '!');
+    if (s.total) hilsen.append(' Du har vunnet ', el('span', { class: 'sum', text: `${s.total} kr` }), ' så langt.');
+    side.append(hilsen, el('p', { class: 'melding', text: this.meldingstekst() }));
+
+    const rutenett = el('div', { class: 'luker' });
+    let kol = 0;
+    let rad = 0;
+    REKKEFOLGE.forEach((n) => {
+      rutenett.append(this.lagLuke(n, DORFARGER[(kol + rad) % 3]));
+      kol += n === 24 ? 2 : 1;
+      if (kol >= 5) { kol = 0; rad++; }
+    });
+    side.append(rutenett);
+    side.append(el('p', { class: 'fot', text: s.beforeStart ? 'Lagre siden på hjemskjermen, så finner du den lett igjen.' : 'Trykk på en luke for å åpne den.' }));
+    this.rot.replaceChildren(side);
+    requestAnimationFrame(() => this.tegnLys());
+  },
+
+  lagLuke(n, farge) {
+    const s = this.status;
+    const d = s.days[n - 1];
+    const klasser = ['luke'];
+    if (n === 24) klasser.push('luke--24');
+    let innhold;
+    let etikett;
+    if (d.opened) {
+      klasser.push('luke--apnet');
+      innhold = [el('span', { class: 'luke__nr', text: n }), el('span', { class: 'stubb' }, el('b', { text: d.amount }), el('small', { text: 'kr' }))];
+      etikett = `Luke ${n}, åpnet, ${d.amount} kroner`;
+    } else if (s.closed || n > s.openDay) {
+      klasser.push('luke--last');
+      innhold = [String(n)];
+      etikett = s.closed ? `Luke ${n}, stengt` : `Luke ${n}, åpner ${n}. desember`;
+    } else if (n === s.openDay || s.isTest) {
+      if (n === s.openDay && !s.isTest) klasser.push('luke--idag');
+      innhold = [String(n)];
+      etikett = `Luke ${n}, klar til å åpnes`;
+    } else {
+      klasser.push('luke--tilgode');
+      innhold = [String(n), el('span', { class: 'merke', text: 'til gode' })];
+      etikett = `Luke ${n}, til gode`;
+    }
+    return el('button', { class: klasser.join(' '), 'data-farge': farge, 'data-luke': n, 'aria-label': etikett, onclick: () => this.trykkLuke(n) }, ...innhold);
+  },
+
+  /** Lyspærer som jager rundt dagens luke (tegnes etter at størrelsen er kjent). */
+  tegnLys() {
+    const dor = this.rot.querySelector('.luke--idag');
+    if (!dor) return;
+    const b = dor.offsetWidth + 10;
+    const h = dor.offsetHeight + 10;
+    const rx = 13;
+    const omkrets = 2 * (b - 2 * rx) + 2 * (h - 2 * rx) + 2 * Math.PI * rx - 24;
+    const n = Math.max(12, Math.round(omkrets / 13));
+    const g = omkrets / n;
+    const svg = document.createElementNS(svgNs, 'svg');
+    svg.setAttribute('class', 'lys');
+    svg.setAttribute('viewBox', `0 0 ${b} ${h}`);
+    svg.setAttribute('aria-hidden', 'true');
+    svg.innerHTML = `<rect class="av" x="5" y="5" width="${b - 10}" height="${h - 10}" rx="${rx}" fill="none" stroke-width="5.5" stroke-linecap="round" stroke-dasharray="0 ${g.toFixed(3)}" pathLength="${omkrets.toFixed(3)}"/>` +
+      `<rect class="pa" x="5" y="5" width="${b - 10}" height="${h - 10}" rx="${rx}" fill="none" stroke-width="5.5" stroke-linecap="round" stroke-dasharray="0 ${(g * 3).toFixed(3)}" pathLength="${omkrets.toFixed(3)}"/>`;
+    dor.append(svg);
+    const pa = svg.querySelector('.pa');
+    if (!REDUSERT && pa.animate) {
+      pa.style.animation = 'none';
+      pa.animate([{ strokeDashoffset: 0 }, { strokeDashoffset: -g * 3 }], { duration: 900, iterations: Infinity, easing: 'steps(3)' });
+    }
+  },
+
+  trykkLuke(n) {
+    Lyd.start();
+    const s = this.status;
+    const d = s.days[n - 1];
+    if (d.opened) { this.visApnet(n); return; }
+    if (s.closed) { this.visBeskjed('Kalenderen er stengt for i år.'); return; }
+    if (n > s.openDay) {
+      const dor = this.rot.querySelector(`[data-luke="${n}"]`);
+      if (dor && dor.animate) dor.animate([{ translate: '0 0' }, { translate: '-5px 0' }, { translate: '5px 0' }, { translate: '-3px 0' }, { translate: '0 0' }], { duration: 320 });
+      vibrer(20);
+      this.visBeskjed(s.beforeStart ? 'Ikke ennå! Kalenderen åpner 1. desember.' : `Ikke ennå! Luke ${n} åpner ${n}. desember.`);
+      return;
+    }
+    this.startSpill(n);
+  },
+
+  async nullstill(dag) {
+    try {
+      this.status = await Api.nullstill(this.nokkel, dag);
+      this.visKalender();
+    } catch (e) {
+      this.visBeskjed(e.message);
+    }
+  },
+
+  /** Hun med armene i kors dukker opp nederst med en snakkeboble. */
+  visBeskjed(tekst) {
+    document.querySelectorAll('.beskjed').forEach((b) => b.remove());
+    clearTimeout(this.beskjedTimer);
+    const dag = this.visningsdag();
+    const hatt = dagensHatt(dag, 'hun');
+    const boks = el('div', { class: 'beskjed', role: 'status' },
+      el('div', { class: 'beskjed__innhold' }, figurFoto({ bilde: 'hun-armer', hatter: [hatt], neser: [hatt === 'gevir'] }), snakkeboble(tekst)));
+    const lukk = () => {
+      boks.classList.add('borte');
+      setTimeout(() => boks.remove(), 380);
+    };
+    boks.addEventListener('click', lukk);
+    document.body.append(boks);
+    this.beskjedTimer = setTimeout(lukk, 2800);
+  },
+
+  /** En åpnet luke: vis billetten på nytt. */
+  visApnet(n) {
+    const s = this.status;
+    const d = s.days[n - 1];
+    const lukk = () => overlay.remove();
+    const knapper = [el('button', { class: 'knapp', text: 'Lukk', onclick: lukk })];
+    if (s.isTest) {
+      knapper.unshift(el('button', {
+        class: 'knapp knapp--sekundar',
+        text: 'Spill igjen',
+        onclick: async () => {
+          lukk();
+          try { this.status = await Api.nullstill(this.nokkel, n); } catch (e) { this.visBeskjed(e.message); return; }
+          this.startSpill(n);
+        },
+      }));
+    }
+    const billett = el('div', { class: 'billett', style: { transform: 'none' } },
+      el('p', { class: 'billett__luke', text: `Luke ${n}: ${LUKENAVN[d.type] || ''}` }),
+      el('p', { class: 'billett__tittel', text: n === 24 ? 'God jul!' : 'Gevinst!' }),
+      el('p', { class: 'billett__belop' }, String(d.amount), el('small', { text: ' kr' })),
+      el('p', { class: 'billett__info', text: s.isTest ? 'Testgevinst, ingenting blir utbetalt.' : 'Denne luken er åpnet.' }));
+    const overlay = el('div', { class: 'avsloring', role: 'dialog', 'aria-modal': 'true', 'aria-label': `Luke ${n}`, onclick: (e) => { if (e.target === overlay) lukk(); } },
+      el('div', {}, el('div', { class: 'automat' }, el('div', { class: 'automat__spalte' }), el('div', { class: 'automat__vindu' }, billett)), el('div', { class: 'handling' }, ...knapper)));
+    document.body.append(overlay);
+    knapper[knapper.length - 1].focus();
+  },
+
+  /* ---------- Spillskjermen --------------------------------------------- */
+
+  startSpill(n) {
+    const s = this.status;
+    const d = s.days[n - 1];
+    const type = d.type || 'hjul';
+    const spill = SPILL[type] || SPILL.hjul;
+    const scene = el('div', { class: `scene scene--${type}` });
+    const handling = el('div', { class: 'handling' });
+    const tekst = el('p', { class: 'spill-tekst', 'aria-live': 'polite', text: spill.tekst });
+    const lydknapp = el('button', { class: 'ikonknapp', 'aria-label': Lyd.pa ? 'Slå av lyd' : 'Slå på lyd', html: Lyd.pa ? IKON.lydPa : IKON.lydAv });
+    lydknapp.addEventListener('click', () => {
+      Lyd.sett(!Lyd.pa);
+      lydknapp.innerHTML = Lyd.pa ? IKON.lydPa : IKON.lydAv;
+      lydknapp.setAttribute('aria-label', Lyd.pa ? 'Slå av lyd' : 'Slå på lyd');
+    });
+    const tilbake = el('button', { class: 'tilbake', html: `${IKON.tilbake}<span>Kalender</span>`, onclick: () => this.tilbakeFraSpill() });
+    const skjerm = el('div', { class: 'spillskjerm' },
+      el('div', { class: 'topplinje' }, tilbake, el('span', { class: 'lukeetikett', text: `Luke ${n}` }), lydknapp),
+      el('h1', { class: 'spill-tittel', text: n === 24 ? `God jul, ${s.name}!` : spill.tittel }),
+      tekst, scene, handling);
+    this.rot.replaceChildren(skjerm);
+    window.scrollTo(0, 0);
+    if (!this.harHistorikk) {
+      try { history.pushState({ luke: n }, ''); this.harHistorikk = true; } catch (e) { this.harHistorikk = false; }
+    }
+
+    const ctx = {
+      dag: n,
+      navn: s.name,
+      scene,
+      handling,
+      tekst: (t) => { tekst.textContent = t; },
+      knapp: (t, fn, sekundar = false) => {
+        const b = el('button', { class: `knapp${sekundar ? ' knapp--sekundar' : ''}`, text: t, onclick: fn });
+        handling.append(b);
+        return b;
+      },
+      vunnet: () => this.avslor(n),
+      aktiv: () => this.spill && this.spill.n === n,
+    };
+    this.spill = { n, type, kontroll: {} };
+    try {
+      this.spill.kontroll = spill.start(ctx) || {};
+    } catch (e) {
+      console.error(e);
+      ctx.tekst('Noe gikk galt med spillet. Trykk på knappen for å åpne luken likevel.');
+      ctx.knapp('Åpne luken', () => ctx.vunnet());
+    }
+  },
+
+  tilbakeFraSpill() {
+    if (this.harHistorikk) { history.back(); return; } // popstate lukker spillet
+    this.lukkSpill();
+  },
+
+  lukkSpill() {
+    if (this.spill && this.spill.kontroll && this.spill.kontroll.stopp) {
+      try { this.spill.kontroll.stopp(); } catch (e) { /* ignoreres */ }
+    }
+    this.spill = null;
+    this.visKalender();
+  },
+
+  /* ---------- Gevinstbilletten ------------------------------------------ */
+
+  async avslor(n) {
+    if (this.avslorer) return;
+    this.avslorer = true;
+    const s = this.status;
+    const belop = el('p', { class: 'billett__belop' });
+    const venter = el('p', { class: 'billett__venter', text: 'Skriver ut gevinsten …' });
+    const billett = el('div', { class: 'billett skriver' },
+      el('p', { class: 'billett__luke', text: `Luke ${n}` }),
+      el('p', { class: 'billett__tittel', text: n === 24 ? 'God jul!' : 'Gevinst!' }), belop, venter);
+    const handling = el('div', { class: 'handling' });
+    const automat = el('div', { class: 'automat' }, el('div', { class: 'automat__spalte' }), el('div', { class: 'automat__vindu' }, billett));
+    const ramme = el('div', { class: 'med-cameo' }, automat, handling);
+    const overlay = el('div', { class: 'avsloring', role: 'dialog', 'aria-modal': 'true', 'aria-label': 'Gevinst' }, ramme);
+    document.body.append(overlay);
+    animer(REDUSERT ? 10 : 650, (e) => { billett.style.transform = `translateY(${-100 + 42 * e}%)`; }, ease.utKubisk);
+
+    let res = null;
+    while (!res) {
+      try {
+        res = await Api.aapne(this.nokkel, n);
+      } catch (e) {
+        billett.classList.remove('skriver');
+        venter.className = 'billett__feil';
+        venter.textContent = e.message;
+        const valg = await new Promise((r) => {
+          handling.replaceChildren(
+            el('button', { class: 'knapp', text: 'Prøv igjen', onclick: () => r('igjen') }),
+            el('button', { class: 'knapp knapp--sekundar', text: 'Til kalenderen', onclick: () => r('ut') }));
+        });
+        handling.replaceChildren();
+        if (valg === 'ut') {
+          overlay.remove();
+          this.avslorer = false;
+          this.tilbakeFraSpill();
+          return;
+        }
+        venter.className = 'billett__venter';
+        venter.textContent = 'Skriver ut gevinsten …';
+        billett.classList.add('skriver');
+      }
+    }
+    if (res.status) this.status = res.status;
+    billett.classList.remove('skriver');
+    venter.remove();
+    await animer(REDUSERT ? 10 : 520, (e) => { billett.style.transform = `translateY(${-58 + 58 * e}%)`; }, ease.utTilbake);
+    billett.style.transform = 'none';
+
+    const tall = el('span', { text: '0' });
+    belop.replaceChildren(tall, el('small', { text: ' kr' }));
+    belop.classList.add('stempel');
+    Lyd.vinn();
+    vibrer([30, 50, 30]);
+    konfetti();
+    await animer(REDUSERT ? 10 : 950, (e) => {
+      const v = Math.round((e * res.amount) / 5) * 5;
+      if (tall.textContent !== String(v)) { tall.textContent = String(v); Lyd.telle(); }
+    }, ease.utKubisk);
+    tall.textContent = String(res.amount);
+    const info = s.isTest
+      ? (s.demo ? 'Dette er en demo. Ingenting blir utbetalt.' : 'Testgevinst, ingenting blir utbetalt.')
+      : 'Gevinsten er registrert og blir utbetalt.';
+    billett.append(el('p', { class: 'billett__info', text: info }));
+    this.visCameo(automat, n);
+
+    const ferdig = el('button', {
+      class: 'knapp',
+      text: 'Tilbake til kalenderen',
+      onclick: () => {
+        overlay.remove();
+        this.avslorer = false;
+        this.tilbakeFraSpill();
+      },
+    });
+    handling.replaceChildren(ferdig);
+    ferdig.focus();
+  },
+
+  /** En av dem dukker opp bak billettautomaten – i ulike former fra dag til dag. */
+  visCameo(automat, n) {
+    let figur;
+    let tekst;
+    const fraser = ['Gratulerer!', 'Bra jobba!', 'Heia deg!', 'Jippi!', 'Kjempebra!', 'Så flott!'];
+    if (n === ANTALL) {
+      figur = figurFoto({ bilde: 'par', hatter: ['nisselue', 'nisselue'] });
+      tekst = 'God jul!';
+    } else if (n % 2) {
+      const h = dagensHatt(n, 'han');
+      figur = figurFoto({ bilde: 'han-tommel', hatter: [h], neser: [h === 'gevir'] });
+      tekst = fraser[n % fraser.length];
+    } else {
+      figur = figurDrakt({ hvem: 'hun', variant: dagensVariant(n, 'hun'), drakt: dagensKostyme(n, 'hun'), klasse: 'jubel' });
+      tekst = fraser[(n + 3) % fraser.length];
+    }
+    figur.classList.add('cameo');
+    automat.append(el('div', { class: 'cameo-ramme' }, figur), snakkeboble(tekst, 'cameo-boble'));
+  },
+};
+
+document.addEventListener('DOMContentLoaded', () => App.start());
+
+</script>
+</body>
+</html>
